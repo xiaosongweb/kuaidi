@@ -1,0 +1,8 @@
+<div class="more">
+    <a class="price" href="https://m.kuaidi100.com/price/">时效价格</a>
+    <a class="all" href="/all/">快递大全</a>
+    <a class="net" href="/network/">网点查询</a>
+    <a class="global" href="/global/">国际快递</a>
+    <a class="download" href="/app/download.html">下载APP</a>
+    <a class="import" onclick="showDownload('dialog','moreDialog', '淘宝、京东等电商平台快递单一键导入')">订单导入</a>
+</div>

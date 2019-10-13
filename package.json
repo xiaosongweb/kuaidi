@@ -1,0 +1,41 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx gulp -f config/gulpfile_dev.js",
+    "build": "npx gulp -f config/gulpfile_build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "art-template": "^4.13.2",
+    "art-template-loader": "^1.4.3",
+    "aurelia-useable-style-loader": "^2.1.0",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-rev": "^9.0.0",
+    "gulp-rev-collector": "^1.3.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "http-proxy-middleware": "^0.20.0",
+    "i": "^0.3.6",
+    "node-sass": "^4.12.0",
+    "npm": "^6.12.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "superagent": "^5.1.0",
+    "superagent-no-cache": "^0.1.1",
+    "swiper": "^5.0.4",
+    "to-string-loader": "^1.1.5",
+    "url-loader": "^2.2.0",
+    "webpack-stream": "^5.2.1"
+  }
+}

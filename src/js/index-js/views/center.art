@@ -1,0 +1,75 @@
+<div class="center">
+
+    <div id="has" class="mine has"><img src="https://cdn.kuaidi100.com/images/m/change/arrow_white.png"
+            class="white-arrow">
+        <div class="avatar"
+            style="background-image: url(&quot;https://p.kuaidi100.com/mobile/mobileapi.do?method=download&quot;);">
+        </div>
+        <div class="infos">
+            <p>未登录
+                <!---->
+            </p>
+            <p><span>登录后享受更多特权</span></p>
+        </div>
+        <div id="hasImg" class="has-img"><img src="https://cdn.kuaidi100.com/images/m/change/bg2.png"></div>
+        <div class="has-ad"></div>
+    </div>
+
+    <div class="menu-list">
+        <ul>
+            <li>
+                <div class="ico add"></div>
+                <div class="line">
+                    <div>我的寄件</div>
+                </div>
+            </li>
+            <li>
+                <div class="ico query"></div>
+                <div class="line">
+                    <div>查件记录</div>
+                </div>
+            </li>
+            <li class="badge">
+                <div class="ico mess"></div>
+                <div class="line">
+                    <div>消息中心</div>
+                </div>
+            </li>
+            <li>
+                <div class="ico coupon"></div>
+                <div class="line">
+                    <div>我的卡券</div>
+                </div>
+            </li>
+            <li>
+                <div class="ico addr"></div>
+                <div class="line">
+                    <div>地址管理</div>
+                </div>
+            </li>
+            <li class="badge">
+                <div class="ico point"></div>
+                <div class="line">
+                    <div>积分商城</div>
+                    <div class="place">赚积分兑好礼</div>
+                </div>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <div class="ico about"></div>
+                <div class="line">
+                    <div>关于我们</div>
+                </div>
+            </li>
+            <li>
+                <div class="ico help"></div>
+                <div class="line">
+                    <div>帮助中心</div>
+                </div>
+            </li>
+        </ul>
+        <!---->
+    </div>
+
+</div>

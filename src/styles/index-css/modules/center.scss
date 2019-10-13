@@ -1,0 +1,165 @@
+.center {
+    position: relative;
+    background: #efeff4;
+
+    .mine {
+        min-height: 1.17rem;
+        // height: 117px;
+        padding: 0rem .16rem 0rem .16rem;
+        position: relative;
+        z-index: 10;
+        display: flex;
+        flex-wrap: wrap;
+        opacity: 1;
+        display: -webkit-box;
+        background: url(https://cdn.kuaidi100.com/images/m/change/bgHasCard.png) top center no-repeat #317ee7;
+        background-size: 100% auto;
+        // padding: .22rem .16rem .32rem .16rem;
+        color: #FFF;
+        background-position-y: -.256rem;
+
+        .white-arrow {
+            position: absolute;
+            right: 14px;
+            top: .272rem;
+            width: .08rem;
+        }
+
+        .avatar {
+            margin-top: .2rem;
+            width: .56rem;
+            height: .56rem;
+            border-radius: 50%;
+            background-size: 100%;
+            margin-right: .08rem;
+            background-color: rgba(255, 240, 240, .3);
+            background-image: url(https://p.kuaidi100.com/mobile/mobileapi.do?method=download);
+        }
+
+        .infos {
+            -webkit-box-flex: 1;
+            margin-top: .232rem;
+
+            p {
+                font-size: .18rem;
+                display: flex;
+                align-items: center;
+            }
+
+            p:last-child {
+                margin-top: .04rem;
+
+                span {
+                    font-size: .16rem;
+                    opacity: 0.7;
+                }
+            }
+        }
+
+        .has-img {
+            width: 100%;
+            position: absolute;
+            bottom: -.2366rem;
+
+            left: 0;
+            z-index: 20;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .menu-list {
+        height: 4rem;
+        margin-top: -.17rem;
+
+        .menu-list ul:first-child {
+            margin-top: -.08rem;
+        }
+
+        ul {
+            background: #fff;
+            position: relative;
+            z-index: 12;
+            margin-top: 0.1rem;
+
+            li {
+                -webkit-box-flex: 1;
+                color: #333;
+                display: -webkit-box;
+                -webkit-box-align: center;
+                padding-left: .14rem;
+                font-size: 14px;
+
+                .line {
+                    font-size: 16px;
+                    color: #333;
+                    display: -webkit-box;
+                    height: .48rem;
+                    border-bottom: 1px solid #efeff4;
+                    -webkit-box-flex: 1;
+                    -webkit-box-align: center;
+
+                    >div:first-child {
+                        -webkit-box-flex: 1;
+                    }
+                }
+
+                .ico {
+                    position: relative;
+                    width: .2rem;
+                    height: .2rem;
+                    margin-right: .07rem;
+                    background-size: .18rem auto;
+                    background-repeat: no-repeat;
+                }
+
+                .ico.add {
+                    background-image: url(https://cdn.kuaidi100.com/images/m/change/ico_send.png?ver=1);
+                }
+
+                .ico.query {
+                    background-image: url(https://cdn.kuaidi100.com/images/m/change/ico_record.png);
+                }
+
+                .ico.mess {
+                    background-image: url(https://cdn.kuaidi100.com/images/m/change/ico_message.png);
+                }
+
+                .ico.coupon {
+                    background-image: url(https://cdn.kuaidi100.com/images/m/change/ico_card.png);
+                }
+
+                .ico.addr {
+                    background-image: url(https://cdn.kuaidi100.com/images/m/change/ico_address.png);
+                }
+
+                .ico.point {
+                    background-image: url(https://cdn.kuaidi100.com/images/m/change/ico_code.png);
+                }
+            }
+
+            li .line:after {
+                margin-right: .12rem;
+                display: block;
+                width: .09rem;
+                height: .09rem;
+                border-top: 1.5px solid #b4b4b4;
+                border-right: 1.5px solid #b4b4b4;
+                content: '';
+                margin-left: 5px;
+                -webkit-transform: rotate(45deg);
+                border-radius: 2px;
+            }
+        }
+        .place{
+            color: #aaa;
+            font-size: 14px;
+        }
+    }
+
+}
+main{
+    background: #eee;
+}

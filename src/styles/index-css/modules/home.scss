@@ -1,0 +1,351 @@
+
+.home {
+
+    display: flex;
+    flex-direction: column;
+
+    .logo {
+        height: 120px;
+        background: url(../../../assets/images/banner.png) no-repeat;
+        background-size: 100%;
+    }
+
+    .app-form {
+        height: 48px;
+        background: #fff;
+        width: 95.26%;
+        margin: -.22rem .1rem 0 .1rem;
+        border: none;
+        border-radius: .04rem;
+        position: relative;
+        box-shadow: 0px .02rem .08rem rgba(213, 213, 213, .7);
+
+        .app-form-ctrl {
+            position: relative;
+            -webkit-box-flex: 1;
+            border-radius: 4px;
+
+            input {
+                padding-left: .14rem;
+                border-radius: 4px;
+                width: 100%;
+                box-sizing: border-box;
+                border: none;
+                background: #FFF;
+
+                font-size: 14px;
+                color: #333333;
+                height: .48rem;
+            }
+
+            .scan {
+                position: absolute;
+                top: 50%;
+                right: .1rem;
+                -webkit-transform: translate(0, -50%);
+                transform: translate(0, -50%);
+                width: .192rem;
+                height: .192rem;
+                background-image: url(https://cdn.kuaidi100.com/images/m/ico_scan.png);
+                background-size: 100% auto;
+                background-repeat: no-repeat;
+                border: 1px solid transparent;
+            }
+
+            .clear-input-new {
+                position: absolute;
+                right: .4rem;
+                top: 0;
+                height: .48rem;
+                font-size: 12px;
+                color: #fff;
+                display: flex;
+                align-items: center;
+                width: .26rem;
+
+                img {
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+        }
+
+        .app-search-new {
+            background: #fff;
+            padding: 0 .08rem 0 .08rem;
+            line-height: .36rem;
+            color: #fff;
+            font-size: 12px;
+            border-radius: 4px;
+            border-top-left-radius: 0px;
+            border-bottom-left-radius: 0px;
+            position: absolute;
+            right: .06rem;
+            height: .24rem;
+            border-left: 1px solid #eeeeee;
+            top: .13rem;
+            display: flex;
+            align-items: center;
+            visibility: hidden;
+
+            span {
+                position: relative;
+                font-size: 16px;
+                display: inline-block;
+                width: .128rem;
+                height: .128rem;
+                width: .16rem;
+                height: .16rem;
+                color: #317ee7;
+                bottom: .08rem;
+
+            }
+        }
+    }
+
+    .page-col {
+        padding: .16rem 0 .192rem;
+        margin-top: .56rem;
+        height: 56px;
+        width: 100%;
+
+        box-shadow: 0px -.2rem .2rem #efeff4;
+        -webkit-box-shadow: 0px -.2rem .2rem #efeff4;
+        background: #efeff4;
+
+        >ul {
+            font-size: 14px;
+            color: #888888;
+            display: flex;
+            justify-content: space-between;
+            background-position: 0 .2rem;
+            padding: 0 .3rem;
+            margin-top: -.57rem;
+
+            li {
+                text-align: center;
+                width: .792rem;
+                -webkit-box-flex: 1;
+
+                a {
+                    color: #888888;
+                    font-size: 13px;
+                }
+
+                .ico {
+                    width: 46.4px;
+                    height: 46.4px;
+                    margin: 10px auto 6px;
+                    border-radius: 50%;
+                    /* background-image: url(https://cdn.kuaidi100.com/images/m/index_ico.png?version=20180425); */
+                    background-size: 100% auto;
+                }
+
+                .courier {
+                    background-position: 1px -1%;
+                    background-image: url(https://cdn.kuaidi100.com/images/m/change/ico_dingdan.png);
+                }
+
+                .record {
+                    /* background-position: 1px -1%; */
+                    position: relative;
+                    background-image: url(https://cdn.kuaidi100.com/images/m/change/ico_jilu.png);
+                }
+
+                .all {
+                    /* background-position: 1px -1%; */
+                    background-image: url(https://cdn.kuaidi100.com/images/m/change/ico_daquan.png);
+                }
+
+                .time {
+                    /* background-position: 1px -1%; */
+                    background-image: url(https://cdn.kuaidi100.com/images/m/change/ico_jiage.png);
+                }
+            }
+        }
+    }
+
+    .history {
+        padding: 0 .1rem .1rem .1rem;
+        background: #efeff4;
+
+        .title {
+            display: flex;
+            justify-content: space-between;
+            height: .168rem;
+
+            a {
+                color: #a3a3a3;
+                font-size: 12px;
+            }
+
+            &:first-child {
+                color: #a3a3a3;
+                font-size: 13px;
+            }
+
+            div:last-child {
+                font-size: 12px;
+                display: flex;
+                align-items: center;
+            }
+
+            >div:last-child::after {
+                display: block;
+                width: 8px;
+                height: 8px;
+                border-top: 1.5px solid #b4b4b4;
+                border-right: 1.5px solid #b4b4b4;
+                content: '';
+                -webkit-transform: rotate(45deg);
+                border-radius: 2px;
+            }
+
+        }
+
+        .box {
+            height: 2.0255rem;
+            width: 100%;
+
+            .nor-new {
+                margin: 0 auto;
+                width: 70%;
+                padding-top: 40%;
+                background: url(https://cdn.kuaidi100.com/images/m/none.png?version=2) no-repeat;
+                background-size: 100% auto;
+                overflow: hidden;
+                text-align: center;
+                color: #888;
+
+                p {
+                    font-size: 16px;
+
+                    small {
+                        font-size: 14px;
+                        opacity: .8;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .new-products {
+        width: 100%;
+        background: #efeff4;
+
+        .new-products-title {
+            width: 100%;
+            color: #333333;
+            font-size: 17px;
+            padding: .08rem 0 .08rem .16rem;
+        }
+
+        .new-products-part {
+            height: 120px;
+            overflow-x: scroll;
+            overflow-y: hidden;
+
+            ul.product {
+
+                width: auto;
+                height: 200px;
+                overflow: hidden;
+                display: inline-flex;
+
+                .products-part-detail {
+                    width: 110px;
+                    height: 106px;
+                    background: #fff;
+                    border-radius: 4px;
+                    display: inline-flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: 5px;
+
+                    img {
+                        width: 34px;
+                        height: 34px;
+                        margin-top: 8px;
+                    }
+
+                    .products-part-detail-title {
+                        width: 100%;
+                        color: #333333;
+                        font-size: 13px;
+                        text-align: center;
+                        height: 16px;
+                        margin-bottom: 4px;
+                        margin-top: -12px;
+                    }
+
+                    .products-part-detail-desc {
+                        width: 100%;
+                        color: #888888;
+                        font-size: .12rem;
+                        text-align: center;
+                        transform: scale(0.84);
+                        height: 14px;
+                        margin-top: -12px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        display: -webkit-box;
+                        -webkit-box-orient: vertical;
+                        -webkit-line-clamp: 2;
+                        // margin-left: -8%; 
+                    }
+                }
+            }
+
+            .products-part-detail:first-child {
+                margin-left: .1rem;
+            }
+
+            .products-part-detail:last-child {
+                margin-right: .1rem;
+            }
+        }
+    }
+
+    .copyright {
+        padding: .1rem 0;
+        line-height: .24rem;
+        text-align: center;
+        font-size: .12rem;
+        color: #aaa;
+
+        .copyright-meun {
+            padding: 0;
+            height: .32rem;
+            line-height: .32rem;
+            margin: .1rem 0;
+            padding: 0;
+
+            a {
+                display: inline-block;
+                padding: 0 .1rem;
+                text-align: center;
+                border: .01rem solid #e6e6e6;
+                color: #aaa;
+                background: #e6e6e6;
+                border-right: .01rem solid #d2d2d2;
+            }
+
+            &:nth-last-child(1) {
+                border-right: none;
+            }
+        }
+
+        .copyright-icp {
+            a {
+                color: #aaa;
+
+                img {
+                    width: 46px;
+                    height: 16px;
+                }
+            }
+        }
+    }
+}

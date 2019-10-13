@@ -1,0 +1,31 @@
+.footer {
+    height: 100%;
+    display: flex;
+    border-top: 1px solid #efeff4;
+    z-index: 10;
+
+    >a {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: gray;
+        
+        .ico {
+            height: 25px;
+            width: 25px;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .txt {
+            height: .192rem;
+            font-size: 14px;
+
+        }
+
+        &.active {
+            color: #3581eb;
+        }
+    }
+}

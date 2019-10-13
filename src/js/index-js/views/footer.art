@@ -1,0 +1,18 @@
+<div class="footer">
+    <a id="t-home" class="active" href="#home">
+        <div class="ico yofont">&#xe600;</div>
+        <div class="txt">查快递</div>
+    </a>
+    <a id="t-courier" href="#courier">
+        <div class="ico yofont">&#xe6fc;</div>
+        <div class="txt">寄快递</div>
+    </a>
+    <a id="t-more" href="#more">
+        <div class="ico yofont">&#xe61c;</div>
+        <div class="txt">更多</div>
+    </a>
+    <a id="t-center" href="#center">
+        <div class="ico yofont">&#xe603;</div>
+        <div class="txt">我</div>
+    </a>
+</div>

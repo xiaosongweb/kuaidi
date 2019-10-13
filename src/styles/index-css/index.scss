@@ -1,0 +1,34 @@
+@import '../lib//yo3/usage/core/reset.scss';
+@import './modules/root.scss';
+@import './modules/footer.scss';
+@import './modules//home.scss';
+@import './modules/courier.scss';
+@import './modules/more.scss';
+@import './modules//center.scss';
+
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'yofont';
+    src:
+        url('../../assets/icon/iconfont.woff') format('woff'),
+        url('../../assets/icon/iconfont.ttf') format('truetype'),
+}
+
+html,
+body {
+    // font-size: (16px)/2.5875;
+    font-size: 16px;
+}
+
+
+.yofont {
+    font-family: "yofont" !important;
+    font-size: 14px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

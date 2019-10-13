@@ -1,0 +1,34 @@
+.root {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    main {
+        flex: 1;
+        overflow-y: scroll;
+        // background: #fff;
+    }
+
+    footer {
+        height: 49px;
+        background: #fff;
+    }
+}
+
+// @media only screen and (min-width:320px) {
+//     html {
+//         font-size: 77.08px;
+//     }
+// }
+
+// @media only screen and (min-width:375px) {
+//     html {
+//         font-size: 89.58px;
+//     }
+// }
+
+@media only screen and (min-width:412px) {
+    html {
+        font-size: 100px;
+    }
+}

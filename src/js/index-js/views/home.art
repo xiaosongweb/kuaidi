@@ -1,0 +1,92 @@
+<div class="home">
+    <div class="logo"></div>
+    <div class="app-form">
+        <div class="app-form-ctrl">
+            <input type="text" placeholder="请输入快递单号">
+            <div class="scan" style=""></div>
+            <div class="clear-input-new clear" style="display: none;"><img
+                    src="https://cdn.kuaidi100.com/images/m/icons/ico_close.png"></div>
+        </div>
+        <div class="app-search-new" style=""><span class="yofont">&#xe600;</span></div>
+    </div>
+    <div class="page-col">
+        <ul>
+            <li><a href="/morder/history.jsp">
+                    <div class="ico courier"></div>
+                    <div class="text">我的订单</div>
+                </a></li>
+            <li><a href="/history.jsp">
+                    <div class="ico record"></div>
+                    <div class="text">查件记录</div>
+                </a></li>
+            <li><a href="/all/">
+                    <div class="ico all"></div>
+                    <div class="text">快递大全</div>
+                </a></li>
+            <li><a href="/price/">
+                    <div class="ico time"></div>
+                    <div class="text">时效价格</div>
+                </a></li>
+        </ul>
+    </div>
+    <div class="history">
+        <div class="title">
+            <div>历史纪录</div>
+            <div><a href="/history.jsp">管理单号</a></div>
+        </div>
+        <div class="box">
+            <div class="nor-new">
+                <p>暂无查询记录</p>
+                <p><small>立即输入单号查询快递进度吧</small></p>
+            </div>
+        </div>
+    </div>
+    <section style="background: rgb(239, 239, 247);"></section>
+    <div class="new-products">
+        <div class="new-products-title">产品大全</div>
+        <div class="new-products-part">
+            <ul class="product">
+                <li class="products-part-detail"><img src="https://cdn.kuaidi100.com/images/m/change/app.png">
+                    <div class="products-part-detail-title">快递100 APP</div>
+                    <div class="products-part-detail-desc">寄快递 查快递</div>
+                    <div class="products-part-detail-desc">一键搞定</div>
+                </li>
+                <li class="products-part-detail">
+                    <img src="https://cdn.kuaidi100.com/images/m/change/recive.png">
+                    <div class="products-part-detail-title">快递100收件端</div>
+                    <div class="products-part-detail-desc">为快递员打造</div>
+                    <div class="products-part-detail-desc">收派一体化APP</div>
+                </li>
+                <li class="products-part-detail">
+                    <img src="https://cdn.kuaidi100.com/images/m/change/charge.png">
+                    <div class="products-part-detail-title">快递管家</div>
+                    <div class="products-part-detail-desc">微商打单发货</div>
+                    <div class="products-part-detail-desc">物流跟踪</div>
+                </li>
+                <li class="products-part-detail">
+                    <img src="https://cdn.kuaidi100.com/images/m/change/cloud.png">
+                    <div class="products-part-detail-title">云打印产品</div>
+                    <div class="products-part-detail-desc" style="margin-left: -6%;">让电子面单打印更方便</div>
+                </li>
+                <li class="products-part-detail">
+                    <img src="https://cdn.kuaidi100.com/images/m/change/api.png">
+                    <div class="products-part-detail-title">API接口</div>
+                    <div class="products-part-detail-desc" style="margin-left: -6%;">帮助网站、系统和APP</div>
+                    <div class="products-part-detail-desc" style="margin-left: -6%;">集成快递100各项服务</div>
+                </li>
+            </ul>
+        </div>
+
+
+
+        <section class="copyright">
+            <p class="copyright-meun"><a id="downApp">下载APP</a><a id="showCode">关注微信</a></p>
+            <p class='copyright-icp'>
+                <a title="快递100-查快递、寄快递、上快递100">
+                    <img src="https://cdn.kuaidi100.com/images/smart/logo_footer.png" ></a>
+                <a>粤ICP备14085002号-5</a>
+            </p>
+        </section>
+
+    </div>
+</div>
