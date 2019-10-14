@@ -7,6 +7,7 @@ import moreController from '../controllers/more'
 import centerController from '../controllers/center'
 import footerController from '../controllers/footer'
 import main_background from '../../../styles/index-css/modules/background.scss'
+import routes from './config/config_route'
 
 class Router {
     constructor() {
@@ -15,35 +16,40 @@ class Router {
         this.init()
     }
     init() {
-        let hash = location.hash.substr(1) || "home"
-        this.controller = {
+        $(window).on('load', this.handlePageload.bind(this))
+        $(window).on('hashchange', this.handleHash.bind(this))
+    }
+    renderDOM(hash) {
+        let controller = {
             homeController,
             courierController,
             moreController,
             centerController
         }
-        this.hashRender(hash)
-        this.addActive(hash)
-        this.bindEvent()
-    }
-    bindEvent() {
-        $(window).on('hashchange', this.handleHash.bind(this))
-    }
-    handleHash() {
-        let hash = location.hash.substr(1)
-        this.hashRender(hash)
-        this.addActive(hash)
-    }
-    hashRender(hash) {
-        this.controller[hash + `Controller`].init()
-        if(hash==='home'){
+        controller[hash + 'Controller'].init()
+        if (hash === 'home') {
             main_background.use()
-        
             return false
         }
         main_background.unuse()
-        
     }
+
+    handleHash() {
+        let hash = location.hash.substr(1)
+        let reg = new RegExp('^(\\w+)', 'g')
+        let path = reg.exec(hash)
+        this.renderDOM(path[1])
+        this.addActive(path[1])
+    }
+    handlePageload() {
+        let hash = location.hash.substr(1) || 'home'
+        let reg = new RegExp('^(\\w+)', 'g')
+        let path = reg.exec(hash)
+        location.hash = hash
+        this.renderDOM(path[1])
+        this.addActive(path[1])
+    }
+
     addActive(hash) {
         $(`.footer a[href="#${hash}"]`).addClass('active').siblings().removeClass('active')
     }

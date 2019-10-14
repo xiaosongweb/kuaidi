@@ -1,0 +1,52 @@
+.common-header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 5;
+    background: #317ee7;
+
+    .common-back {
+        position: relative;
+        height: .092rem;
+        width: .092rem;
+        border-top: 2px solid #aaa;
+        border-left: 2px solid #aaa;
+        border-radius: 2px 0 0;
+        margin: 0 .16rem;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        border-color: #fff;
+    }
+
+    .common-title {
+        -webkit-flex-grow: 1;
+        text-align: center;
+        color: #fff;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .common-menu {
+        padding-right: .16rem;
+    }
+
+    .common-menu span,
+    .common-menu:after,
+    .common-menu:before {
+        display: inline-block;
+        width: 4px;
+        height: 4px;
+        margin-left: 4px;
+        background: #fff;
+        border-radius: 50%;
+        margin-top: -3px;
+        vertical-align: middle;
+    }
+
+    .common-menu:after,
+    .common-menu:before {
+        content: '';
+    }
+}

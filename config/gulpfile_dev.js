@@ -10,7 +10,8 @@ function opendServer() {
         name: 'Dev App',
         root: [`${devPath}`],
         port: 9000,
-        livereload: true
+        livereload: true,
+        // host:'10.9.49.228'
     });
 }
 function copyHtml() {
@@ -28,10 +29,11 @@ function copyJs() {
     return src('../src/js/*-js/*.js')
         .pipe(webpack({
             entry: {
-                index: '../src/js/index-js/index-app.js',
+                index: '../src/js/index-js/index.js',
+                more: '../src/js/more-js/more.js'
             },
             output: {
-                filename: '[name]-app.js',
+                filename: '[name].js',
                 path: path.resolve(__dirname, `${devPath}`)
             },
             mode: 'development',
@@ -70,7 +72,7 @@ function copyLib() {
         .pipe(connect.reload())
 }
 function watchChange() {
-    watch(['../src/**/*'], parallel(copyHtml,copyStyles,copyJs,copyAssets,copyLib))
+    watch(['../src/**/*'], parallel(copyHtml, copyStyles, copyJs, copyAssets, copyLib))
     // watch(['../styles/**/*'], series(copyStyles))
     // watch(['../js/**/*'], series(copyJs))
     // watch(['../assets/**/*'], series(copyAssets))

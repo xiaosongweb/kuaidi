@@ -1,0 +1,5 @@
+<div class="common-header">
+    <div class="common-back"></div>
+    <div class="common-title">{{name}}</div>
+    <div class="common-menu"><span></span></div>
+</div>

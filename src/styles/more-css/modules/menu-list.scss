@@ -1,0 +1,82 @@
+.common-menu-list {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: rgba(0, 0, 0, .1);
+    display: none;
+
+    ul:before {
+        position: absolute;
+        right: 5px;
+        top: -5px;
+        border-bottom: 5px solid #FFF;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        content: '';
+    }
+
+    ul {
+        width: 1.09rem;
+        position: absolute;
+        right: .08rem;
+        top: .48rem;
+        z-index: 1;
+        background-color: #FFF;
+        color: #333;
+        font-size: .14rem;
+        line-height: .35rem;
+        border-radius: 4px;
+        transition: all .2s;
+        transform: scale(1);
+        transform-origin: 100% 0;
+        box-shadow: 0 0 .1rem rgba(0, 0, 0, .3);
+
+        li {
+            border-bottom: 1px solid #efeff4;
+
+            a,
+            .common-menu-list a:hover,
+            .common-menu-list a:visited {
+                color: #333;
+            }
+
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .i {
+                    display: inline-block;
+                    width: .25rem;
+                    height: .25rem;
+                    vertical-align: middle;
+                    margin: 0 .08rem;
+                    background-image: url(https://cdn.kuaidi100.com/images/m/icons/toolbar.png?version=5);
+                    background-size: 25px auto;
+                }
+
+                .txt {
+                    flex: 1;
+                }
+
+
+            }
+
+        }
+
+        li:nth-child(2) .i {
+            background-position: 0 -25px;
+        }
+
+        li:nth-child(3) .i {
+            background-position: 0 -75px;
+        }
+
+        li:nth-child(4) .i {
+            background-position: 0 -50px;
+        }
+    }
+}

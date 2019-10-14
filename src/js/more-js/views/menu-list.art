@@ -1,0 +1,20 @@
+<div class="common-menu-list up" id="menuList">
+    <ul class="down">
+        <li><a href="https://m.kuaidi100.com/">
+                <div class="i"></div>
+                <div class="txt">回到首页</div>
+            </a></li>
+        <li><a href="https://m.kuaidi100.com/courier/">
+                <div class="i"></div>
+                <div class="txt">寄快递</div>
+            </a></li>
+        <li><a href="https://m.kuaidi100.com/more.jsp">
+                <div class="i"></div>
+                <div class="txt">更多功能</div>
+            </a></li>
+        <li><a href="https://m.kuaidi100.com/ucenter.jsp">
+                <div class="i"></div>
+                <div class="txt">个人中心</div>
+            </a></li>
+    </ul>
+</div>

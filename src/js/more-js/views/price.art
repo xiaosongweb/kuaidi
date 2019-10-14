@@ -1,0 +1,27 @@
+<div class="price">
+    <section class="form">
+        <div class="form-control"><label class="st"></label>
+            <div class="input">北京市--昌平区</div>
+        </div>
+        <div class="form-control"><label class="ds"></label>
+            <div class="input empty">请选择目的地址</div>
+        </div>
+    </section>
+    <section class="form">
+        <div class="form-control right"><label>重　　量：</label>
+            <div class="input num-ctrl">
+                <div class="minus disabled"></div>
+                <div class="number-wrap"><input type="number" class="small" value="1"><span>公斤</span></div>
+                <div class="plus"></div>
+            </div>
+        </div>
+        <div class="form-control next right"><label>寄件时间：</label>
+            <div id="startTime" class="input">2019-10-14 09:33</div>
+        </div>
+    </section>
+    <div class="center">由快递100大数据预测，结果仅供参考</div>
+    <div class="foot">
+        <div class="btn">查询</div>
+    </div>
+   
+</div>
