@@ -728,7 +728,8 @@ a {
     height: 40px; }
   .root main {
     flex: 1;
-    overflow-y: scroll; }
+    overflow-y: scroll;
+    height: 100%; }
 
 .common-header {
   width: 100%;
@@ -939,3 +940,48 @@ a {
       border-radius: 3px;
       color: #FFF;
       text-align: center; }
+
+.all {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll; }
+  .all .main-title {
+    width: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: space-around; }
+    .all .main-title .main-title-name {
+      font-size: 15px;
+      color: #888;
+      width: 68px;
+      text-align: center;
+      height: 40px;
+      line-height: 40px; }
+    .all .main-title .choose {
+      color: #317ee7;
+      border-bottom: 2px solid #317ee7; }
+  .all article {
+    display: none; }
+    .all article .kd-content > section .dl-list dt {
+      padding: .048rem;
+      color: #888888;
+      font-size: 14px;
+      background-color: #f0f0f0; }
+    .all article .kd-content > section .dl-list dd {
+      background-color: #fff; }
+      .all article .kd-content > section .dl-list dd a {
+        display: block;
+        padding: .16rem;
+        color: #5a5a5a;
+        border-bottom: 1px solid #f0f0f0; }
+        .all article .kd-content > section .dl-list dd a img {
+          margin-right: .16rem;
+          width: .48rem;
+          height: .48rem;
+          border-radius: .24rem; }
+  .all .active {
+    display: block !important; }
+
+#root {
+  height: 100%; }

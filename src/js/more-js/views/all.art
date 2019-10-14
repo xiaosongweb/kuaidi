@@ -1,0 +1,678 @@
+<div class="all">
+    <div class="main-title">
+        <div class="main-title-name choose">国内快递</div>
+        <div class="main-title-name">国际快递</div>
+    </div>
+    <article class="active">
+        <div class="kd-content">
+            <section>
+                <dl id="comList" class="dl-list">
+                    <dt><a id="0"></a>常用快递 </dt>
+                    <dd><a href="https://m.kuaidi100.com/all/yt.htm" data-code="yuantong"><img
+                                src="https://cdn.kuaidi100.com/images/all/56/yuantong.png" alt="圆通快递">圆通快递</a> <a
+                            href="https://m.kuaidi100.com/all/st.htm" data-code="shentong"><img
+                                src="https://cdn.kuaidi100.com/images/all/56/shentong.png" alt="申通快递">申通快递</a> <a
+                            href="https://m.kuaidi100.com/all/sf.htm" data-code="shunfeng"><img
+                                src="https://cdn.kuaidi100.com/images/all/56/shunfeng.png" alt="顺丰快递">顺丰快递</a><a
+                            href="https://m.kuaidi100.com/all/yd.htm" data-code="yunda"><img
+                                src="https://cdn.kuaidi100.com/images/all/56/yunda.png" alt="韵达快递">韵达快递</a> <a
+                            href="https://m.kuaidi100.com/all/dbwl.htm" data-code="debangwuliu"><img
+                                src="https://cdn.kuaidi100.com/images/all/56/debangwuliu.png" alt="德邦快递">德邦快递</a> <a
+                            href="https://m.kuaidi100.com/all/zt.htm" data-code="zhongtong"><img
+                                src="https://cdn.kuaidi100.com/images/all/56/zhongtong.png" alt="中通快递">中通快递</a><a
+                            href="https://m.kuaidi100.com/all/htky.htm" data-code="huitongkuaidi"><img
+                                src="https://cdn.kuaidi100.com/images/all/56/huitongkuaidi.png" alt="百世快递">百世快递</a> <a
+                            href="https://m.kuaidi100.com/all/yzgn.htm" data-code="youzhengguonei"><img
+                                src="https://cdn.kuaidi100.com/images/all/56/youzhengguonei.png" alt="邮政包裹">邮政包裹</a> <a
+                            href="https://m.kuaidi100.com/all/ems.htm" data-code="ems"><img
+                                src="https://cdn.kuaidi100.com/images/all/56/ems.png" alt="EMS">EMS</a><a
+                            href="https://m.kuaidi100.com/all/yzgj.htm"><img
+                                src="https://cdn.kuaidi100.com/images/all/56/youzhengguoji.png" alt="邮政国际">邮政国际</a></dd>
+                    <dt><a id="a"></a>A</dt>
+                    <dd><a href="https://m.kuaidi100.com/all/a2u.htm" data-code="a2u">A2U速递</a><a
+                            href="https://m.kuaidi100.com/all/aae.htm" data-code="aae">AAE快递</a><a
+                            href="https://m.kuaidi100.com/all/annengwuliu.htm" data-code="annengwuliu">安能物流</a> <a
+                            href="https://m.kuaidi100.com/all/anxl.htm" data-code="anxl">安迅物流</a><a
+                            href="https://m.kuaidi100.com/all/auexpress.htm" data-code="auexpress">澳邮中国快运</a><a
+                            href="https://m.kuaidi100.com/all/exfresh.htm" data-code="exfresh">安鲜达</a><a
+                            href="https://m.kuaidi100.com/all/anjie88.htm" data-code="anjie88">安捷物流</a><a
+                            href="https://m.kuaidi100.com/all/qdants.htm" data-code="qdants">ANTS EXPRESS</a><a
+                            href="https://m.kuaidi100.com/all/astexpress.htm" data-code="astexpress">安世通快递</a><a
+                            href="https://m.kuaidi100.com/all/ausexpress.htm" data-code="ausexpress">澳世速递</a><a
+                            href="https://m.kuaidi100.com/all/aplusex.htm" data-code="aplusex">Aplus物流</a><a
+                            href="https://m.kuaidi100.com/all/adapost.htm" data-code="adapost">安达速递</a><a
+                            href="https://m.kuaidi100.com/all/adiexpress.htm" data-code="adiexpress">安达易国际速递</a><a
+                            href="https://m.kuaidi100.com/all/maxeedexpress.htm" data-code="maxeedexpress">澳洲迈速快递</a><a
+                            href="https://m.kuaidi100.com/all/onway.htm" data-code="onway">昂威物流</a><a
+                            href="https://m.kuaidi100.com/all/aotsd.htm" data-code="aotsd">澳天速运</a><a
+                            href="https://m.kuaidi100.com/all/rlgaus.htm" data-code="rlgaus">澳洲飞跃物流</a><a
+                            href="https://m.kuaidi100.com/all/eiffel.htm" data-code="eiffel">艾菲尔国际速递</a><a
+                            href="https://m.kuaidi100.com/all/jetexpressgroup.htm"
+                            data-code="jetexpressgroup">澳速通国际速递</a><a href="https://m.kuaidi100.com/all/auod.htm"
+                            data-code="auod">澳德物流</a></dd>
+                    <dt><a id="b"></a>B</dt>
+                    <dd><a href="https://m.kuaidi100.com/all/yzgn.htm" data-code="yzgn">包裹/平邮/挂号信</a> <a
+                            href="https://m.kuaidi100.com/all/htky.htm" data-code="htky">百世快递</a><a
+                            href="https://m.kuaidi100.com/all/bfdf.htm" data-code="bfdf">百福东方物流</a> <a
+                            href="https://m.kuaidi100.com/all/bqcwl.htm" data-code="bqcwl">百千诚物流</a><a
+                            href="https://m.kuaidi100.com/all/idada.htm" data-code="idada">百成大达物流</a><a
+                            href="https://m.kuaidi100.com/all/baishiwuliu.htm" data-code="baishiwuliu">百世快运</a><a
+                            href="https://m.kuaidi100.com/all/baitengwuliu.htm" data-code="baitengwuliu">百腾物流</a> <a
+                            href="https://m.kuaidi100.com/all/bsht.htm" data-code="bsht">百事亨通</a><a
+                            href="https://m.kuaidi100.com/all/bosind.htm" data-code="bosind">堡昕德速递</a><a
+                            href="https://m.kuaidi100.com/all/polarisexpress.htm" data-code="polarisexpress">北极星快运</a><a
+                            href="https://m.kuaidi100.com/all/beijingfengyue.htm"
+                            data-code="beijingfengyue">北京丰越供应链</a><a href="https://m.kuaidi100.com/all/europe8.htm"
+                            data-code="europe8">败欧洲</a><a href="https://m.kuaidi100.com/all/bmlchina.htm"
+                            data-code="bmlchina">标杆物流</a><a href="https://m.kuaidi100.com/all/comexpress.htm"
+                            data-code="comexpress">邦通国际</a><a href="https://m.kuaidi100.com/all/beckygo.htm"
+                            data-code="beckygo">佰麒快递</a><a href="https://m.kuaidi100.com/all/boyol.htm"
+                            data-code="boyol">贝业物流</a><a href="https://m.kuaidi100.com/all/bdatong.htm"
+                            data-code="bdatong">八达通快递</a><a href="https://m.kuaidi100.com/all/bangbangpost.htm"
+                            data-code="bangbangpost">帮帮发</a><a href="https://m.kuaidi100.com/all/baoxianda.htm"
+                            data-code="baoxianda">报通快递</a><a href="https://m.kuaidi100.com/all/buytong.htm"
+                            data-code="buytong">百通物流</a><a href="https://m.kuaidi100.com/all/btexpress.htm"
+                            data-code="btexpress">邦泰快运</a></dd>
+                    <dt><a id="c"></a>C</dt>
+                    <dd><a href="https://m.kuaidi100.com/all/coe.htm" data-code="coe">COE（东方快递）</a><a
+                            href="https://m.kuaidi100.com/all/chuanxiwuliu.htm" data-code="chuanxiwuliu">传喜物流</a> <a
+                            href="https://m.kuaidi100.com/all/chukou1.htm" data-code="chukou1">出口易</a> <a
+                            href="https://m.kuaidi100.com/all/flyway.htm" data-code="flyway">程光快递</a><a
+                            href="https://m.kuaidi100.com/all/spring56.htm" data-code="spring56">春风物流</a><a
+                            href="https://m.kuaidi100.com/all/cunto.htm" data-code="cunto">村通快递</a><a
+                            href="https://m.kuaidi100.com/all/longvast.htm" data-code="longvast">长风物流</a><a
+                            href="https://m.kuaidi100.com/all/changjiang.htm" data-code="changjiang">长江国际速递</a><a
+                            href="https://m.kuaidi100.com/all/cncexp.htm" data-code="cncexp">C&amp;C国际速递</a><a
+                            href="https://m.kuaidi100.com/all/parcelchina.htm" data-code="parcelchina">诚一物流</a><a
+                            href="https://m.kuaidi100.com/all/ytchengnuoda.htm" data-code="ytchengnuoda">承诺达</a><a
+                            href="https://m.kuaidi100.com/all/sfpost.htm" data-code="sfpost">曹操到</a><a
+                            href="https://m.kuaidi100.com/all/changwooair.htm" data-code="changwooair">昌宇国际</a><a
+                            href="https://m.kuaidi100.com/all/cht361.htm" data-code="cht361">诚和通</a><a
+                            href="https://m.kuaidi100.com/all/chengpei.htm" data-code="chengpei">河北橙配</a></dd>
+                    <dt><a id="d"></a>D</dt>
+                    <dd><a href="https://m.kuaidi100.com/all/dhl.htm" data-code="dhl" title="DHL国际快递查询">DHL快递（中国件）</a><a
+                            href="https://m.kuaidi100.com/global/dhlen.htm" data-code="dhlen">DHL（国际件）</a><a
+                            href="https://m.kuaidi100.com/global/dhlde.htm" data-code="dhlde">DHL（德国件）</a> <a
+                            href="https://m.kuaidi100.com/all/dbwl.htm" data-code="dbwl" title="德邦单号查询">德邦</a><a
+                            href="https://m.kuaidi100.com/all/coe.htm" data-code="coe">东方快递</a> <a
+                            href="https://m.kuaidi100.com/all/disifang.htm" data-code="disifang">递四方</a><a
+                            href="https://m.kuaidi100.com/all/dayangwuliu.htm" data-code="dayangwuliu">大洋物流</a><a
+                            href="https://m.kuaidi100.com/all/dskd.htm" data-code="dskd">D速物流</a> <a
+                            href="https://m.kuaidi100.com/all/dfpost.htm" data-code="dfpost">达方物流</a><a
+                            href="https://m.kuaidi100.com/all/dazhong.htm" data-code="dazhong">大众佐川急便</a><a
+                            href="https://m.kuaidi100.com/all/ahdf.htm" data-code="ahdf">德方物流</a><a
+                            href="https://m.kuaidi100.com/all/dehaoyi.htm" data-code="dehaoyi">德豪驿</a><a
+                            href="https://m.kuaidi100.com/all/dhlpaket.htm" data-code="dhlpaket">DHL Paket</a><a
+                            href="https://m.kuaidi100.com/all/ubuy.htm" data-code="ubuy">优拜物流</a><a
+                            href="https://m.kuaidi100.com/all/yunexpress.htm" data-code="yunexpress">德国云快递</a><a
+                            href="https://m.kuaidi100.com/all/di5pll.htm" data-code="di5pll">递五方云仓</a><a
+                            href="https://m.kuaidi100.com/all/dbstation.htm" data-code="dbstation">db-station</a><a
+                            href="https://m.kuaidi100.com/all/dadaoex.htm" data-code="dadaoex">大道物流</a><a
+                            href="https://m.kuaidi100.com/all/dekuncn.htm" data-code="dekuncn">德坤物流</a><a
+                            href="https://m.kuaidi100.com/all/gslexpress.htm" data-code="gslexpress">德尚国际速递</a><a
+                            href="https://m.kuaidi100.com/all/eucpost.htm" data-code="eucpost">德国 EUC POST</a><a
+                            href="https://m.kuaidi100.com/all/est365.htm" data-code="est365">东方汇</a><a
+                            href="https://m.kuaidi100.com/all/ecotransite.htm" data-code="ecotransite">东西E全运</a><a
+                            href="https://m.kuaidi100.com/all/danniao.htm" data-code="danniao">丹鸟</a><a
+                            href="https://m.kuaidi100.com/all/idamalu.htm" data-code="idamalu">大马鹿</a><a
+                            href="https://m.kuaidi100.com/all/duodao56.htm" data-code="duodao56">多道供应链</a><a
+                            href="https://m.kuaidi100.com/all/cnspeedster.htm" data-code="cnspeedster">速舟物流</a></dd>
+                    <dt><a id="e"></a>E</dt>
+                    <dd><a href="https://m.kuaidi100.com/all/euexpress.htm" data-code="euexpress">EU-EXPRESS</a><a
+                            href="https://m.kuaidi100.com/all/ems.htm" data-code="ems" title="ems快递查询">EMS快递查询</a><a
+                            href="https://m.kuaidi100.com/global/emsguoji.htm" data-code="emsguoji">EMS国际快递查询</a><a
+                            href="https://m.kuaidi100.com/all/eshunda.htm" data-code="eshunda">俄顺达</a><a
+                            href="https://m.kuaidi100.com/all/ewe.htm" data-code="ewe">EWE全球快递</a><a
+                            href="https://m.kuaidi100.com/all/easyexpress.htm"
+                            data-code="easyexpress">EASYEXPRESS国际速递</a><a
+                            href="https://m.kuaidi100.com/all/edtexpress.htm" data-code="edtexpress">e直运</a><a
+                            href="https://m.kuaidi100.com/all/ecallturn.htm" data-code="ecallturn">E跨通</a><a
+                            href="https://m.kuaidi100.com/all/exsuda.htm" data-code="exsuda">E速达</a></dd>
+                    <dt><a id="f"></a>F</dt>
+                    <dd><a href="https://m.kuaidi100.com/all/fedex.htm" data-code="fedex">FedEx快递查询</a><a
+                            href="https://m.kuaidi100.com/global/fedex.htm" data-code="fedex"
+                            title="fedex国际快递查询">FedEx国际件</a><a href="https://m.kuaidi100.com/global/fedexus.htm"
+                            data-code="fedexus">FedEx（美国）</a> <a href="https://m.kuaidi100.com/all/fox.htm"
+                            data-code="fox">FOX国际速递</a> <a href="https://m.kuaidi100.com/all/feibaokuaidi.htm"
+                            data-code="feibaokuaidi">飞豹快递</a> <a href="https://m.kuaidi100.com/all/fandaguoji.htm"
+                            data-code="fandaguoji">颿达国际</a> <a href="https://m.kuaidi100.com/all/flysman.htm"
+                            data-code="flysman">飞力士物流</a><a href="https://m.kuaidi100.com/all/fbkd.htm"
+                            data-code="fbkd">飞邦快递</a><a href="https://m.kuaidi100.com/all/sccod.htm"
+                            data-code="sccod">丰程物流</a><a href="https://m.kuaidi100.com/all/crazyexpress.htm"
+                            data-code="crazyexpress">疯狂快递</a><a href="https://m.kuaidi100.com/all/ftlexpress.htm"
+                            data-code="ftlexpress">法翔速运</a><a href="https://m.kuaidi100.com/all/ftd.htm"
+                            data-code="ftd">富腾达快递</a><a href="https://m.kuaidi100.com/all/arkexpress.htm"
+                            data-code="arkexpress">方舟国际速递</a><a href="https://m.kuaidi100.com/all/fyex.htm"
+                            data-code="fyex">飞云快递系统</a><a href="https://m.kuaidi100.com/all/beebird.htm"
+                            data-code="beebird">锋鸟物流</a><a href="https://m.kuaidi100.com/all/shipgce.htm"
+                            data-code="shipgce">飞洋快递</a><a href="https://m.kuaidi100.com/all/koali.htm"
+                            data-code="koali">番薯国际货运</a><a href="https://m.kuaidi100.com/all/epanex.htm"
+                            data-code="epanex">泛捷国际速递</a></dd>
+                    <dt><a id="g"></a>G</dt>
+                    <dd><a href="https://m.kuaidi100.com/all/gaticn.htm" data-code="gaticn">GATI快递</a><a
+                            href="https://m.kuaidi100.com/all/gts.htm" data-code="gts">GTS快递</a><a
+                            href="https://m.kuaidi100.com/all/guotongkuaidi.htm" data-code="guotongkuaidi">国通快递</a> <a
+                            href="https://m.kuaidi100.com/all/ndkd.htm" data-code="ndkd">港中能达物流</a><a
+                            href="https://m.kuaidi100.com/all/yzgn.htm" data-code="yzgn">挂号信/国内邮件</a> <a
+                            href="https://m.kuaidi100.com/all/gongsuda.htm" data-code="gongsuda">共速达</a><a
+                            href="https://m.kuaidi100.com/all/gtongsudi.htm" data-code="gtongsudi">广通速递（山东）</a><a
+                            href="https://m.kuaidi100.com/all/suteng.htm" data-code="suteng">速腾物流</a> <a
+                            href="https://m.kuaidi100.com/all/gdkd.htm" data-code="gdkd">港快速递</a><a
+                            href="https://m.kuaidi100.com/all/ge2d.htm" data-code="ge2d">GE2D跨境物流</a><a
+                            href="https://m.kuaidi100.com/all/gdct56.htm" data-code="gdct56">广东诚通物流</a><a
+                            href="https://m.kuaidi100.com/all/ghtexpress.htm" data-code="ghtexpress">GHT物流</a><a
+                            href="https://m.kuaidi100.com/all/goldjet.htm" data-code="goldjet">高捷快运</a><a
+                            href="https://m.kuaidi100.com/all/hlpgyl.htm" data-code="hlpgyl">共联配</a></dd>
+                    <dt><a id="h"></a>H</dt>
+                    <dd><a href="https://m.kuaidi100.com/all/tdhy.htm" data-code="tdhy">华宇物流</a><a
+                            href="https://m.kuaidi100.com/all/hl.htm" data-code="hl">恒路物流</a><a
+                            href="https://m.kuaidi100.com/all/hlyex.htm" data-code="hlyex">好来运快递</a><a
+                            href="https://m.kuaidi100.com/all/tt.htm" data-code="tt">海航天天</a><a
+                            href="https://m.kuaidi100.com/all/huaqikuaiyun.htm" data-code="huaqikuaiyun">华企快运</a> <a
+                            href="https://m.kuaidi100.com/all/hutongwuliu.htm" data-code="hutongwuliu">户通物流</a><a
+                            href="https://m.kuaidi100.com/all/huangmajia.htm" data-code="huangmajia">黄马甲快递</a> <a
+                            href="https://m.kuaidi100.com/all/ucs.htm" data-code="ucs">合众速递（UCS）</a><a
+                            href="https://m.kuaidi100.com/all/pfcexpress.htm" data-code="pfcexpress">皇家物流</a> <a
+                            href="https://m.kuaidi100.com/all/hjs.htm" data-code="hjs">猴急送</a><a
+                            href="https://m.kuaidi100.com/all/hangyu.htm" data-code="hangyu">航宇快递</a> <a
+                            href="https://m.kuaidi100.com/all/huanqiu.htm" data-code="huanqiu">环球速运</a> <a
+                            href="https://m.kuaidi100.com/all/airgtc.htm" data-code="airgtc">航空快递</a><a
+                            href="https://m.kuaidi100.com/all/haoyoukuai.htm" data-code="haoyoukuai">好又快物流</a><a
+                            href="https://m.kuaidi100.com/all/hyytes.htm" data-code="hyytes">恒宇运通</a><a
+                            href="https://m.kuaidi100.com/all/hengrui56.htm" data-code="hengrui56">恒瑞物流</a><a
+                            href="https://m.kuaidi100.com/all/hnqst.htm" data-code="hnqst">河南全速通</a><a
+                            href="https://m.kuaidi100.com/all/hhair56.htm" data-code="hhair56">华瀚快递</a><a
+                            href="https://m.kuaidi100.com/all/ht22.htm" data-code="ht22">海淘物流</a><a
+                            href="https://m.kuaidi100.com/all/hivewms.htm" data-code="hivewms">海沧无忧</a><a
+                            href="https://m.kuaidi100.com/all/hnht56.htm" data-code="hnht56">鸿泰物流</a><a
+                            href="https://m.kuaidi100.com/all/hsgtsd.htm" data-code="hsgtsd">海硕高铁速递</a><a
+                            href="https://m.kuaidi100.com/all/hltop.htm" data-code="hltop">海联快递</a><a
+                            href="https://m.kuaidi100.com/all/haidaibao.htm" data-code="haidaibao">海带宝转运</a><a
+                            href="https://m.kuaidi100.com/all/flowerkd.htm" data-code="flowerkd">花瓣转运</a><a
+                            href="https://m.kuaidi100.com/all/logistics.htm" data-code="logistics">華信物流WTO</a><a
+                            href="https://m.kuaidi100.com/all/hgy56.htm" data-code="hgy56">环国运物流</a><a
+                            href="https://m.kuaidi100.com/all/hac56.htm" data-code="hac56">瀚朝物流</a><a
+                            href="https://m.kuaidi100.com/all/hongywl.htm" data-code="hongywl">红远物流</a><a
+                            href="https://m.kuaidi100.com/all/njhaobo.htm" data-code="njhaobo">浩博物流</a><a
+                            href="https://m.kuaidi100.com/all/uschuaxia.htm" data-code="uschuaxia">华夏国际速递</a><a
+                            href="https://m.kuaidi100.com/all/tcat.htm" data-code="tcat">黑猫宅急便</a><a
+                            href="https://m.kuaidi100.com/all/savor.htm" data-code="savor">海信物流</a></dd>
+                    <dt><a id="i"></a>I</dt>
+                    <dd><a href="https://m.kuaidi100.com/global/iparcel.htm" data-code="iparcel">i-parcel</a></dd>
+                    <dt><a id="j"></a>J</dt>
+                    <dd><a href="https://m.kuaidi100.com/all/jjwl.htm" data-code="jjwl">佳吉物流</a><a
+                            href="https://m.kuaidi100.com/all/jywl.htm" data-code="jywl">佳怡物流</a><a
+                            href="https://m.kuaidi100.com/all/jymwl.htm" data-code="jymwl">加运美快递</a> <a
+                            href="https://m.kuaidi100.com/all/jxd.htm" data-code="jxd">急先达物流</a><a
+                            href="https://m.kuaidi100.com/all/jgsd.htm" data-code="jgsd">京广速递快件</a> <a
+                            href="https://m.kuaidi100.com/all/jd.htm" data-code="jd">京东物流</a><a
+                            href="https://m.kuaidi100.com/all/jiuyicn.htm" data-code="jiuyicn">久易快递</a> <a
+                            href="https://m.kuaidi100.com/all/jiuyescm.htm" data-code="jiuyescm">九曳供应链</a><a
+                            href="https://m.kuaidi100.com/all/jiajiatong56.htm" data-code="jiajiatong56">佳家通</a> <a
+                            href="https://m.kuaidi100.com/all/jinchengwuliu.htm" data-code="jinchengwuliu">锦程国际物流</a><a
+                            href="https://m.kuaidi100.com/all/jgwl.htm" data-code="jgwl">景光物流</a> <a
+                            href="https://m.kuaidi100.com/all/jialidatong.htm" data-code="jialidatong">嘉里大通</a><a
+                            href="https://m.kuaidi100.com/all/jiacheng.htm" data-code="jiacheng">佳成快递</a><a
+                            href="https://m.kuaidi100.com/all/hrex.htm" data-code="hrex">锦程快递</a><a
+                            href="https://m.kuaidi100.com/all/jieanda.htm" data-code="jieanda">捷安达国际速递</a><a
+                            href="https://m.kuaidi100.com/all/newsway.htm" data-code="newsway">家家通快递</a><a
+                            href="https://m.kuaidi100.com/all/jixiangyouau.htm" data-code="jixiangyouau">吉祥邮（澳洲）</a><a
+                            href="https://m.kuaidi100.com/all/jjx888.htm" data-code="jjx888">佳捷翔物流</a><a
+                            href="https://m.kuaidi100.com/all/polarexpress.htm" data-code="polarexpress">极地快递</a><a
+                            href="https://m.kuaidi100.com/all/jiazhoumao.htm" data-code="jiazhoumao">加州猫速递</a><a
+                            href="https://m.kuaidi100.com/all/jieborne.htm" data-code="jieborne">捷邦物流</a><a
+                            href="https://m.kuaidi100.com/all/jxfex.htm" data-code="jxfex">集先锋速递</a><a
+                            href="https://m.kuaidi100.com/all/jcsuda.htm" data-code="jcsuda">嘉诚速达</a><a
+                            href="https://m.kuaidi100.com/all/jingshun.htm" data-code="jingshun">景顺物流</a><a
+                            href="https://m.kuaidi100.com/all/fastontime.htm" data-code="fastontime">加拿大联通快运</a><a
+                            href="https://m.kuaidi100.com/all/khzto.htm" data-code="khzto">柬埔寨中通</a><a
+                            href="https://m.kuaidi100.com/all/chllog.htm" data-code="chllog">嘉荣物流</a></dd>
+                    <dt><a id="k"></a>K</dt>
+                    <dd><a href="https://m.kuaidi100.com/all/kuayue.htm" data-code="kuayue">跨越速运</a> <a
+                            href="https://m.kuaidi100.com/all/happylink.htm" data-code="happylink">开心快递</a><a
+                            href="https://m.kuaidi100.com/all/ksudi.htm" data-code="ksudi">快速递</a><a
+                            href="https://m.kuaidi100.com/all/kfwnet.htm" data-code="kfwnet">快服务</a><a
+                            href="https://m.kuaidi100.com/all/kuai8.htm" data-code="kuai8">快8速运</a><a
+                            href="https://m.kuaidi100.com/all/kuaidawuliu.htm" data-code="kuaidawuliu">快达物流</a></dd>
+                    <dt><a id="l"></a>L</dt>
+                    <dd><a href="https://m.kuaidi100.com/all/lhtwl.htm" data-code="lhtwl">联昊通物流</a> <a
+                            href="https://m.kuaidi100.com/all/ltexp.htm" data-code="ltexp">乐天速递</a><a
+                            href="https://m.kuaidi100.com/all/ledii.htm" data-code="ledii">乐递供应链</a><a
+                            href="https://m.kuaidi100.com/all/lundao.htm" data-code="lundao">论道国际物流</a><a
+                            href="https://m.kuaidi100.com/all/lasy56.htm" data-code="lasy56">林安物流</a><a
+                            href="https://m.kuaidi100.com/all/lsexpress.htm" data-code="lsexpress">6LS EXPRESS</a><a
+                            href="https://m.kuaidi100.com/all/szuem.htm" data-code="szuem">联运通物流</a><a
+                            href="https://m.kuaidi100.com/all/blueskyexpress.htm"
+                            data-code="blueskyexpress">蓝天国际航空快递</a><a href="https://m.kuaidi100.com/all/lfexpress.htm"
+                            data-code="lfexpress">龙枫国际速递</a><a href="https://m.kuaidi100.com/all/gslhkd.htm"
+                            data-code="gslhkd">联合快递</a><a href="https://m.kuaidi100.com/all/luben.htm"
+                            data-code="luben">陆本速递 LUBEN EXPRESS</a><a href="https://m.kuaidi100.com/all/lbex.htm"
+                            data-code="lbex">龙邦物流</a><a href="https://m.kuaidi100.com/all/ltparcel.htm"
+                            data-code="ltparcel">联通快递</a></dd>
+                    <dt><a id="m"></a>M</dt>
+                    <dd><a href="https://m.kuaidi100.com/all/mh.htm" data-code="mh">民航快递</a><a
+                            href="https://m.kuaidi100.com/all/meiguokuaidi.htm" data-code="meiguokuaidi">美国快递</a> <a
+                            href="https://m.kuaidi100.com/all/yundaexus.htm" data-code="yundaexus">美国韵达</a><a
+                            href="https://m.kuaidi100.com/all/mchy.htm" data-code="mchy">木春货运</a><a
+                            href="https://m.kuaidi100.com/all/meiquick.htm" data-code="meiquick">美快国际物流</a><a
+                            href="https://m.kuaidi100.com/all/valueway.htm" data-code="valueway">美通快递</a><a
+                            href="https://m.kuaidi100.com/all/cnmcpl.htm" data-code="cnmcpl">马珂博逻</a><a
+                            href="https://m.kuaidi100.com/all/zsmhwl.htm" data-code="zsmhwl">明辉物流</a><a
+                            href="https://m.kuaidi100.com/all/mosuda.htm" data-code="mosuda">魔速达</a><a
+                            href="https://m.kuaidi100.com/all/meibang.htm" data-code="meibang">美邦国际快递</a><a
+                            href="https://m.kuaidi100.com/all/mmlogi.htm" data-code="mmlogi">猛犸速递</a><a
+                            href="https://m.kuaidi100.com/all/meitai.htm" data-code="meitai">美泰物流</a></dd>
+                    <dt><a id="n"></a>N</dt>
+                    <dd><a href="https://m.kuaidi100.com/all/ndkd.htm" data-code="ndkd">能达速递</a><a
+                            href="https://m.kuaidi100.com/all/nuoyaao.htm" data-code="nuoyaao">偌亚奥国际</a><a
+                            href="https://m.kuaidi100.com/all/nuoer.htm" data-code="nuoer">诺尔国际物流</a><a
+                            href="https://m.kuaidi100.com/all/nell.htm" data-code="nell">尼尔快递</a><a
+                            href="https://m.kuaidi100.com/all/canhold.htm" data-code="canhold">能装能送</a></dd>
+                    <dt><a id="o"></a>O</dt>
+                    <dd><a href="https://m.kuaidi100.com/all/ocs.htm" data-code="ocs">OCS</a><a
+                            href="https://m.kuaidi100.com/all/nlebv.htm" data-code="euasia">欧亚专线</a><a
+                            href="https://m.kuaidi100.com/all/uexiex.htm" data-code="uexiex">欧洲UEX</a></dd>
+                    <dt><a id="p"></a>P</dt>
+                    <dd><a href="https://m.kuaidi100.com/all/pcaexpress.htm" data-code="pcaexpress">PCA Express</a><a
+                            href="https://m.kuaidi100.com/all/pingandatengfei.htm"
+                            data-code="pingandatengfei">平安达腾飞</a><a
+                            href="https://m.kuaidi100.com/all/pengyuanexpress.htm"
+                            data-code="pengyuanexpress">鹏远国际速递</a><a href="https://m.kuaidi100.com/all/postelbe.htm"
+                            data-code="postelbe">PostElbe</a><a href="https://m.kuaidi100.com/all/pinxinkuaidi.htm"
+                            data-code="bazirim">品信快递</a></dd>
+                    <dt><a id="q"></a>Q</dt>
+                    <dd><a href="https://m.kuaidi100.com/all/qy.htm" data-code="qy">全一快递</a><a
+                            href="https://m.kuaidi100.com/all/qbexpress.htm" data-code="qbexpress">秦邦快运</a><a
+                            href="https://m.kuaidi100.com/all/quansutong.htm" data-code="quansutong">全速通国际快递</a><a
+                            href="https://m.kuaidi100.com/all/qinyuan.htm" data-code="qinyuan">秦远物流</a><a
+                            href="https://m.kuaidi100.com/all/qichen.htm" data-code="qichen">启辰国际物流</a><a
+                            href="https://m.kuaidi100.com/all/qskdyxgs.htm" data-code="qskdyxgs">千顺快递</a><a
+                            href="https://m.kuaidi100.com/all/guexp.htm" data-code="guexp">全联速运</a><a
+                            href="https://m.kuaidi100.com/all/bjqywl.htm" data-code="bjqywl">青云物流</a><a
+                            href="https://m.kuaidi100.com/all/signedexpress.htm" data-code="signedexpress">签收快递</a><a
+                            href="https://m.kuaidi100.com/all/taijin.htm" data-code="taijin">泰进物流</a><a
+                            href="https://m.kuaidi100.com/all/qesd.htm" data-code="qesd">7E速递</a><a
+                            href="https://m.kuaidi100.com/all/gdqwwl.htm" data-code="gdqwwl">全网物流</a></dd>
+                    <dt><a id="r"></a>R</dt>
+                    <dd><a href="https://m.kuaidi100.com/all/riyuwuliu.htm" data-code="riyuwuliu">日昱物流</a><a
+                            href="https://m.kuaidi100.com/all/rrs.htm" data-code="rrs">日日顺物流</a><a
+                            href="https://m.kuaidi100.com/all/rrskx.htm" data-code="rrskx">日日顺快线</a><a
+                            href="https://m.kuaidi100.com/all/gdrz58.htm" data-code="gdrz58">容智快运</a><a
+                            href="https://m.kuaidi100.com/all/rrthk.htm" data-code="rrthk">日日通国际</a><a
+                            href="https://m.kuaidi100.com/all/rhtexpress.htm" data-code="rhtexpress">睿和泰速运</a><a
+                            href="https://m.kuaidi100.com/all/gooday365.htm" data-code="gooday365">日日顺智慧物联</a></dd>
+                    <dt><a id="s"></a>S</dt>
+                    <dd><a href="https://m.kuaidi100.com/all/st.htm" data-code="st" title="申通快递查询">申通快递</a><a
+                            href="https://m.kuaidi100.com/all/sf.htm" data-code="sf">顺丰速运</a><a
+                            href="https://m.kuaidi100.com/all/sewl.htm" data-code="sewl" title="速尔快递单号查询">速尔快递</a><a
+                            href="https://m.kuaidi100.com/all/sh.htm" data-code="sh">盛辉物流</a><a
+                            href="https://m.kuaidi100.com/all/shiyunkuaidi.htm" data-code="shiyunkuaidi">世运快递</a><a
+                            href="https://m.kuaidi100.com/all/sfwl.htm" data-code="sfwl">盛丰物流</a><a
+                            href="https://m.kuaidi100.com/all/stsd.htm" data-code="stsd">三态速递</a><a
+                            href="https://m.kuaidi100.com/all/ewl.htm" data-code="ewl" title="申通快递查询">申通E物流</a><a
+                            href="https://m.kuaidi100.com/all/shenganwuliu.htm" data-code="shenganwuliu"
+                            title="圣安物流查询">圣安物流</a><a href="https://m.kuaidi100.com/all/suijiawuliu.htm"
+                            data-code="suijiawuliu" title="穗佳物流">穗佳物流</a><a
+                            href="https://m.kuaidi100.com/all/shlindao.htm" data-code="shlindao">上海林道货运</a><a
+                            href="https://m.kuaidi100.com/all/gtongsudi.htm" data-code="gtongsudi">山东广通速递</a><a
+                            href="https://m.kuaidi100.com/all/shunjiefengda.htm" data-code="shunjiefengda">顺捷丰达</a><a
+                            href="https://m.kuaidi100.com/all/subida.htm" data-code="subida">速必达物流</a><a
+                            href="https://m.kuaidi100.com/all/suteng.htm" data-code="suteng">速腾快递</a><a
+                            href="https://m.kuaidi100.com/all/sendtochina.htm" data-code="sendtochina">速递中国</a><a
+                            href="https://m.kuaidi100.com/all/hnssd56.htm" data-code="hnssd56">顺时达物流</a><a
+                            href="https://m.kuaidi100.com/all/superb.htm" data-code="superb">Superb Grace</a><a
+                            href="https://m.kuaidi100.com/all/chinasqk.htm" data-code="chinasqk">SQK国际速递</a><a
+                            href="https://m.kuaidi100.com/all/shunshid.htm" data-code="shunshid">顺士达速运</a><a
+                            href="https://m.kuaidi100.com/all/synship.htm" data-code="synship">SYNSHIP快递</a><a
+                            href="https://m.kuaidi100.com/all/stosolution.htm" data-code="stosolution">申通国际</a><a
+                            href="https://m.kuaidi100.com/all/sxexpress.htm" data-code="sxexpress">三象速递</a><a
+                            href="https://m.kuaidi100.com/all/shangqiao56.htm" data-code="shangqiao56">商桥物流</a><a
+                            href="https://m.kuaidi100.com/all/superoz.htm" data-code="superoz">速配鸥翼</a><a
+                            href="https://m.kuaidi100.com/all/fastgoexpress.htm" data-code="fastgoexpress">速派快递</a><a
+                            href="https://m.kuaidi100.com/all/zjstky.htm" data-code="zjstky">苏通快运</a><a
+                            href="https://m.kuaidi100.com/all/suning.htm" data-code="suning">苏宁物流</a><a
+                            href="https://m.kuaidi100.com/all/shaoke.htm" data-code="shaoke">捎客物流</a><a
+                            href="https://m.kuaidi100.com/all/sdto.htm" data-code="sdto">速达通跨境物流</a><a
+                            href="https://m.kuaidi100.com/all/sut56.htm" data-code="sut56">速通物流</a><a
+                            href="https://m.kuaidi100.com/all/sfwl.htm" data-code="sfwl">盛丰物流</a><a
+                            href="https://m.kuaidi100.com/all/sundarexpress.htm" data-code="sundarexpress">顺达快递</a><a
+                            href="https://m.kuaidi100.com/all/sxjdfreight.htm" data-code="sxjdfreight">顺心捷达</a><a
+                            href="https://m.kuaidi100.com/all/shengtongscm.htm" data-code="shengtongscm">盛通快递</a></dd>
+                    <dt><a id="t"></a>T</dt>
+                    <dd><a href="https://m.kuaidi100.com/all/tnt.htm" data-code="tnt" title="TNT国际快递查询">TNT快递</a><a
+                            href="https://m.kuaidi100.com/all/tt.htm" data-code="tt">天天快递</a><a
+                            href="https://m.kuaidi100.com/all/tdhy.htm" data-code="tdhy" title="天地华宇单号查询">天地华宇</a><a
+                            href="https://m.kuaidi100.com/all/chinatzx.htm" data-code="chinatzx">同舟行物流</a><a
+                            href="https://m.kuaidi100.com/all/nntengda.htm" data-code="nntengda">腾达速递</a><a
+                            href="https://m.kuaidi100.com/all/sd138.htm" data-code="sd138">泰国138</a><a
+                            href="https://m.kuaidi100.com/all/tongdaxing.htm" data-code="tongdaxing">通达兴物流</a><a
+                            href="https://m.kuaidi100.com/all/ibenben.htm" data-code="ibenben">途鲜物流 </a><a
+                            href="https://m.kuaidi100.com/all/krtao.htm" data-code="krtao">淘韩国际快递</a><a
+                            href="https://m.kuaidi100.com/all/lntjs.htm" data-code="lntjs">特急送</a><a
+                            href="https://m.kuaidi100.com/all/guoeryue.htm" data-code="guoeryue">天天快物流</a><a
+                            href="https://m.kuaidi100.com/all/tianma.htm" data-code="tianma">天马迅达</a><a
+                            href="https://m.kuaidi100.com/all/tianxiang.htm" data-code="tianxiang">天翔快递</a><a
+                            href="https://m.kuaidi100.com/all/shpost.htm" data-code="shpost">同城快寄</a><a
+                            href="https://m.kuaidi100.com/all/humpline.htm" data-code="humpline">驼峰国际</a><a
+                            href="https://m.kuaidi100.com/all/transrush.htm" data-code="transrush">TransRush</a><a
+                            href="https://m.kuaidi100.com/all/tstexp.htm" data-code="tstexp">TST速运通</a><a
+                            href="https://m.kuaidi100.com/all/ctoexp.htm" data-code="ctoexp">泰国中通CTO</a><a
+                            href="https://m.kuaidi100.com/all/thaizto.htm" data-code="thaizto">泰国中通ZTO</a><a
+                            href="https://m.kuaidi100.com/all/tzky.htm" data-code="tzky">铁中快运</a><a
+                            href="https://m.kuaidi100.com/all/tcxbthai.htm" data-code="tcxbthai">TCXB国际物流</a><a
+                            href="https://m.kuaidi100.com/all/taimek.htm" data-code="taimek">天美快递</a><a
+                            href="https://m.kuaidi100.com/all/taoplus.htm" data-code="taoplus">淘布斯国际物流</a></dd>
+                    <dt><a id="u"></a>U</dt>
+                    <dd><a href="https://m.kuaidi100.com/all/ups.htm" data-code="ups">UPS快递查询</a><a
+                            href="https://m.kuaidi100.com/global/ups.htm" data-code="ups">UPS国际快递</a><a
+                            href="https://m.kuaidi100.com/all/yskd.htm" data-code="yskd">UC优速快递</a><a
+                            href="https://m.kuaidi100.com/global/usps.htm" data-code="usps">USPS美国邮政</a><a
+                            href="https://m.kuaidi100.com/all/ueq.htm" data-code="ueq">UEQ快递</a><a
+                            href="https://m.kuaidi100.com/all/uex.htm" data-code="uex">UEX国际物流</a><a
+                            href="https://m.kuaidi100.com/all/utaoscm.htm" data-code="utaoscm">UTAO 优到</a></dd>
+                    <dt><a id="w"></a>W</dt>
+                    <dd><a href="https://m.kuaidi100.com/all/weitepai.htm" data-code="weitepai">微特派</a><a
+                            href="https://m.kuaidi100.com/all/wjwl.htm" data-code="wjwl">万家物流</a><a
+                            href="https://m.kuaidi100.com/all/wtdchina.htm" data-code="wtdchina">威时沛运</a><a
+                            href="https://m.kuaidi100.com/all/wzhaunyun.htm" data-code="wzhaunyun">微转运</a><a
+                            href="https://m.kuaidi100.com/all/gswtkd.htm" data-code="gswtkd">万通快递</a><a
+                            href="https://m.kuaidi100.com/all/wandougongzhu.htm" data-code="wandougongzhu">豌豆物流</a><a
+                            href="https://m.kuaidi100.com/all/wjkwl.htm" data-code="wjkwl">万家康物流</a><a
+                            href="https://m.kuaidi100.com/all/vps.htm" data-code="vps">维普恩物流</a><a
+                            href="https://m.kuaidi100.com/all/wykjt.htm" data-code="wykjt">51跨境通</a><a
+                            href="https://m.kuaidi100.com/all/wdm.htm" data-code="wdm">万达美</a><a
+                            href="https://m.kuaidi100.com/all/wto56kj.htm" data-code="wto56kj">温通物流</a><a
+                            href="https://m.kuaidi100.com/all/wowvip.htm" data-code="wowvip">沃埃家</a><a
+                            href="https://m.kuaidi100.com/all/grivertek.htm" data-code="grivertek">潍鸿</a><a
+                            href="https://m.kuaidi100.com/all/wygj168.htm" data-code="wygj168">万运国际快递</a></dd>
+                    <dt><a id="x"></a>X</dt>
+                    <dd><a href="https://m.kuaidi100.com/all/xfwl.htm" data-code="xfwl">信丰物流</a><a
+                            href="https://m.kuaidi100.com/all/xilaikd.htm" data-code="xilaikd">喜来快递</a><a
+                            href="https://m.kuaidi100.com/all/sunspeedy.htm" data-code="sunspeedy">新速航</a><a
+                            href="https://m.kuaidi100.com/all/xipost.htm" data-code="xipost">西邮寄</a><a
+                            href="https://m.kuaidi100.com/all/sunjex.htm" data-code="sunjex">新杰物流</a><a
+                            href="https://m.kuaidi100.com/all/alog.htm" data-code="alog">心怡物流</a><a
+                            href="https://m.kuaidi100.com/all/csxss.htm" data-code="csxss">新时速物流</a><a
+                            href="https://m.kuaidi100.com/all/xiangteng.htm" data-code="xiangteng">翔腾物流</a><a
+                            href="https://m.kuaidi100.com/all/westwing.htm" data-code="xiangteng">西翼物流</a><a
+                            href="https://m.kuaidi100.com/all/littlebearbear.htm" data-code="littlebearbear">小熊物流</a><a
+                            href="https://m.kuaidi100.com/all/huanqiuabc.htm" data-code="huanqiuabc">中国香港环球快运</a><a
+                            href="https://m.kuaidi100.com/all/wlwex.htm" data-code="wlwex">星空国际</a><a
+                            href="https://m.kuaidi100.com/all/yyexp.htm" data-code="yyexp">西安运逸快递</a><a
+                            href="https://m.kuaidi100.com/all/xiyoug.htm" data-code="xiyoug">西游寄</a><a
+                            href="https://m.kuaidi100.com/all/xlobo.htm" data-code="xlobo">xLobo</a><a
+                            href="https://m.kuaidi100.com/all/xunsuexpress.htm" data-code="xunsuexpress">迅速快递</a><a
+                            href="https://m.kuaidi100.com/all/whgjkd.htm" data-code="whgjkd">香港伟豪国际物流</a><a
+                            href="https://m.kuaidi100.com/all/xyd666.htm" data-code="xyd666">鑫远东速运</a><a
+                            href="https://m.kuaidi100.com/all/xdexpress.htm" data-code="xdexpress">迅达速递</a><a
+                            href="https://m.kuaidi100.com/all/xynyc.htm" data-code="xynyc">新元国际</a><a
+                            href="https://m.kuaidi100.com/all/qhxykd.htm" data-code="qhxykd">雪域快递</a></dd>
+                    <dt><a id="y"></a>Y</dt>
+                    <dd><a href="https://m.kuaidi100.com/all/yt.htm" data-code="yt" title="圆通快递查询单号">圆通速递</a><a
+                            href="https://m.kuaidi100.com/all/yd.htm" data-code="yd">韵达快运</a><a
+                            href="https://m.kuaidi100.com/all/ytkd.htm" data-code="ytkd">运通快递</a><a
+                            href="https://m.kuaidi100.com/all/yzgn.htm" data-code="yzgn">邮政国内</a><a
+                            href="https://m.kuaidi100.com/all/yzgj.htm" data-code="yzgj">邮政国际</a><a
+                            href="https://m.kuaidi100.com/all/ycwl.htm" data-code="ycwl">远成物流</a><a
+                            href="https://m.kuaidi100.com/all/yfsd.htm" data-code="yfsd">亚风速递</a><a
+                            href="https://m.kuaidi100.com/all/yskd.htm" data-code="yskd">优速快递</a><a
+                            href="https://m.kuaidi100.com/all/yfwl.htm" data-code="yfwl">越丰物流</a><a
+                            href="https://m.kuaidi100.com/all/yad.htm" data-code="yad">源安达快递</a><a
+                            href="https://m.kuaidi100.com/all/yfh.htm" data-code="yfh">原飞航物流</a><a
+                            href="https://m.kuaidi100.com/all/ems.htm" data-code="ems" title="ems快递查询">邮政EMS速递</a><a
+                            href="https://m.kuaidi100.com/all/yuxinwuliu.htm" data-code="yuxinwuliu">宇鑫物流</a><a
+                            href="https://m.kuaidi100.com/all/youbijia.htm" data-code="youbijia">邮必佳</a><a
+                            href="https://m.kuaidi100.com/all/gml.htm" data-code="gml">英脉物流</a><a
+                            href="https://m.kuaidi100.com/all/leopard.htm" data-code="leopard">云豹国际货运</a><a
+                            href="https://m.kuaidi100.com/all/czwlyn.htm" data-code="czwlyn">云南中诚</a><a
+                            href="https://m.kuaidi100.com/all/yongchang.htm" data-code="yongchang">永昌物流</a><a
+                            href="https://m.kuaidi100.com/all/yousutongda.htm" data-code="yousutongda">优速通达</a><a
+                            href="https://m.kuaidi100.com/all/yingchao.htm" data-code="yingchao">英超物流</a><a
+                            href="https://m.kuaidi100.com/all/yjxlm.htm" data-code="yjxlm">宜家行</a><a
+                            href="https://m.kuaidi100.com/all/onehcang.htm" data-code="onehcang">一号仓</a><a
+                            href="https://m.kuaidi100.com/all/ycgky.htm" data-code="ycgky">远成快运</a><a
+                            href="https://m.kuaidi100.com/all/yunfeng56.htm" data-code="yunfeng56">韵丰物流</a><a
+                            href="https://m.kuaidi100.com/all/iyoungspeed.htm" data-code="iyoungspeed">驿扬国际速运</a><a
+                            href="https://m.kuaidi100.com/all/eupackage.htm" data-code="eupackage">易优包裹</a><a
+                            href="https://m.kuaidi100.com/all/yangbaoguo.htm" data-code="yangbaoguo">洋包裹</a><a
+                            href="https://m.kuaidi100.com/all/uluckex.htm" data-code="uluckex">优联吉运</a><a
+                            href="https://m.kuaidi100.com/all/ecmscn.htm" data-code="ecmscn">易客满</a><a
+                            href="https://m.kuaidi100.com/all/ubonex.htm" data-code="ubonex">优邦速运</a><a
+                            href="https://m.kuaidi100.com/all/yue777.htm" data-code="yue777">玥玛速运</a><a
+                            href="https://m.kuaidi100.com/all/ezhuanyuan.htm" data-code="ezhuanyuan">易转运</a><a
+                            href="https://m.kuaidi100.com/all/yiqisong.htm" data-code="yiqisong">一起送</a><a
+                            href="https://m.kuaidi100.com/all/yongbangwuliu.htm" data-code="yongbangwuliu">永邦国际物流</a><a
+                            href="https://m.kuaidi100.com/all/yihangmall.htm" data-code="yihangmall">易航物流</a><a
+                            href="https://m.kuaidi100.com/all/ykouan.htm" data-code="ykouan">洋口岸</a><a
+                            href="https://m.kuaidi100.com/all/youyou.htm" data-code="youyou">优优速递</a><a
+                            href="https://m.kuaidi100.com/all/sixroad.htm" data-code="sixroad">易普递</a><a
+                            href="https://m.kuaidi100.com/all/yourscm.htm" data-code="yourscm">雅澳物流</a><a
+                            href="https://m.kuaidi100.com/all/euguoji.htm" data-code="euguoji">易邮国际</a><a
+                            href="https://m.kuaidi100.com/all/yimidida.htm" data-code="yimidida">壹米滴答</a><a
+                            href="https://m.kuaidi100.com/all/youban.htm" data-code="youban">邮邦国际</a><a
+                            href="https://m.kuaidi100.com/all/hkems.htm" data-code="hkems">云邮跨境快递</a><a
+                            href="https://m.kuaidi100.com/all/youlai.htm" data-code="youlai">邮来速递</a><a
+                            href="https://m.kuaidi100.com/all/eta100.htm" data-code="eta100">易达国际速递</a><a
+                            href="https://m.kuaidi100.com/all/yatfai.htm" data-code="yatfai">一辉物流</a><a
+                            href="https://m.kuaidi100.com/all/yzswuliu.htm" data-code="yzswuliu">亚洲顺物流</a><a
+                            href="https://m.kuaidi100.com/all/vctrans.htm" data-code="vctrans">越中国际物流</a><a
+                            href="https://m.kuaidi100.com/all/yhtlogistics.htm" data-code="yhtlogistics">宇航通物流</a><a
+                            href="https://m.kuaidi100.com/all/ycgglobal.htm" data-code="ycgglobal">YCG物流</a><a
+                            href="https://m.kuaidi100.com/all/yuanhhk.htm" data-code="yuanhhk">远航国际快运</a><a
+                            href="https://m.kuaidi100.com/all/yiyou.htm" data-code="yiyou">易邮速运</a><a
+                            href="https://m.kuaidi100.com/all/eusacn.htm" data-code="eusacn">优莎速运</a><a
+                            href="https://m.kuaidi100.com/all/uhi.htm" data-code="uhi">优海国际速递</a><a
+                            href="https://m.kuaidi100.com/all/edaeuexpress.htm" data-code="edaeuexpress">易达快运</a><a
+                            href="https://m.kuaidi100.com/all/yundakuaiyun.htm" data-code="yundakuaiyun">韵达快运</a><a
+                            href="https://m.kuaidi100.com/all/1ziton.htm" data-code="1ziton">一智通</a><a
+                            href="https://m.kuaidi100.com/all/oneexpress.htm" data-code="oneexpress">一速递</a></dd>
+                    <dt><a id="z"></a>Z</dt>
+                    <dd><a href="https://m.kuaidi100.com/all/zt.htm" data-code="zt">中通快递</a><a
+                            href="https://m.kuaidi100.com/all/zjs.htm" data-code="zjs">宅急送</a><a
+                            href="https://m.kuaidi100.com/all/ztky.htm" data-code="ztky">中铁快运</a><a
+                            href="https://m.kuaidi100.com/all/ztwl.htm" data-code="ztwl">中铁物流</a><a
+                            href="https://m.kuaidi100.com/all/coe.htm" data-code="coe">中国东方(COE)</a><a
+                            href="https://m.kuaidi100.com/all/zhimakaimen.htm" data-code="zhimakaimen">芝麻开门</a><a
+                            href="https://m.kuaidi100.com/all/yzgn.htm" data-code="yzgn">中国邮政快递</a><a
+                            href="https://m.kuaidi100.com/all/zhengzhoujianhua.htm"
+                            data-code="zhengzhoujianhua">郑州建华</a><a href="https://m.kuaidi100.com/all/zhongsukuaidi.htm"
+                            data-code="zhongsukuaidi">中速快件</a><a href="https://m.kuaidi100.com/all/zengyisudi.htm"
+                            data-code="zengyisudi">增益速递</a><a href="https://m.kuaidi100.com/all/sujievip.htm"
+                            data-code="sujievip">郑州速捷</a><a href="https://m.kuaidi100.com/all/zhdwl.htm"
+                            data-code="zhdwl">众辉达物流</a><a href="https://m.kuaidi100.com/all/zhuanyunsifang.htm"
+                            data-code="zhuanyunsifang">转运四方</a><a href="https://m.kuaidi100.com/all/chinaicip.htm"
+                            data-code="chinaicip">卓志速运</a><a href="https://m.kuaidi100.com/all/ynztsy.htm"
+                            data-code="ynztsy">纵通速运</a><a href="https://m.kuaidi100.com/all/zdepost.htm"
+                            data-code="zdepost">直德邮</a><a href="https://m.kuaidi100.com/all/chinapostcb.htm"
+                            data-code="chinapostcb">中邮电商</a><a href="https://m.kuaidi100.com/all/chunghwa56.htm"
+                            data-code="chunghwa56">中骅物流</a><a href="https://m.kuaidi100.com/all/cosco.htm"
+                            data-code="cosco">中远e环球</a><a href="https://m.kuaidi100.com/all/zf365.htm"
+                            data-code="zf365">珠峰速运</a><a href="https://m.kuaidi100.com/all/zhongtongkuaiyun.htm"
+                            data-code="zhongtongkuaiyun">中通快运</a><a href="https://m.kuaidi100.com/all/chnexp.htm"
+                            data-code="chnexp">中翼国际物流</a><a href="https://m.kuaidi100.com/all/cccc58.htm"
+                            data-code="cccc58">中集冷云</a><a href="https://m.kuaidi100.com/all/zyzoom.htm"
+                            data-code="zyzoom">增速跨境</a><a href="https://m.kuaidi100.com/all/zhongchuan.htm"
+                            data-code="zhongchuan">众川国际</a><a href="https://m.kuaidi100.com/all/zhonghuanus.htm"
+                            data-code="zhonghuanus">中环转运</a><a href="https://m.kuaidi100.com/all/zhonghuan.htm"
+                            data-code="zhonghuan">中环快递</a><a href="https://m.kuaidi100.com/all/uszcn.htm"
+                            data-code="uszcn">转运中国</a><a href="https://m.kuaidi100.com/all/chunghwa56.htm"
+                            data-code="chunghwa56">中骅物流</a><a href="https://m.kuaidi100.com/all/zhitengwuliu.htm"
+                            data-code="zhitengwuliu">志腾物流</a><a href="https://m.kuaidi100.com/all/zsda56.htm"
+                            data-code="zsda56">转瞬达集运</a><a href="https://m.kuaidi100.com/all/zjgj56.htm"
+                            data-code="zjgj56">振捷国际货运</a></dd>
+                </dl>
+            </section>
+
+        </div>
+    </article>
+
+    <article>
+        <div class="kd-content">
+            <section>
+                <dl id="comList" class="dl-list">
+                    <dt><a id="0"></a>常用快递</dt>
+                    <dd><a href="https://m.kuaidi100.com/all/ems.htm"><img
+                                src="https://cdn.kuaidi100.com/images/all/56/ems.png" alt="EMS">EMS</a><a
+                            href="https://m.kuaidi100.com/global/fedex.htm"><img
+                                src="https://cdn.kuaidi100.com/images/all/56/fedex.png" alt="FedEx">FedEx</a><a
+                            href="https://m.kuaidi100.com/global/dhl.htm"><img
+                                src="https://cdn.kuaidi100.com/images/all/56/dhl.png" alt="DHL">DHL</a><a
+                            href="https://m.kuaidi100.com/global/tnt.htm"><img
+                                src="https://cdn.kuaidi100.com/images/all/56/tnt.png" alt="TNT">TNT</a><a
+                            href="https://m.kuaidi100.com/global/ups.htm"><img
+                                src="https://cdn.kuaidi100.com/images/all/56/ups.png" alt="UPS">UPS</a><a
+                            href="https://m.kuaidi100.com/global/usps.htm"><img
+                                src="https://cdn.kuaidi100.com/images/all/56/usps.png" alt="USPS">USPS</a><a
+                            href="https://m.kuaidi100.com/global/japanposten.htm"><img
+                                src="https://cdn.kuaidi100.com/images/all/56/japanposten.png" alt="日本邮政">日本邮政</a><a
+                            href="https://m.kuaidi100.com/global/koreapost.htm"><img
+                                src="https://cdn.kuaidi100.com/images/all/56/koreapost.png" alt="韩国邮政">韩国邮政</a></dd>
+                    <dt><a id="a"></a>A</dt>
+                    <dd><a href="https://m.kuaidi100.com/global/aae.htm">AAE快递</a><a
+                            href="https://m.kuaidi100.com/global/abf.htm">ABF</a><a
+                            href="https://m.kuaidi100.com/global/adp.htm">ADP</a><a
+                            href="https://m.kuaidi100.com/global/asendiausa.htm">Asendia USA</a><a
+                            href="https://m.kuaidi100.com/global/aramex.htm">Aramex</a><a
+                            href="https://m.kuaidi100.com/global/anposten.htm">爱尔兰邮政</a><a
+                            href="https://m.kuaidi100.com/global/auspost.htm">澳大利亚邮政</a><a
+                            href="https://m.kuaidi100.com/global/emirates.htm">阿联酋邮政</a><a
+                            href="https://m.kuaidi100.com/global/afghan.htm">阿富汗邮政</a></dd>
+                    <dt><a id="b"></a>B</dt>
+                    <dd><a href="https://m.kuaidi100.com/global/bpost.htm">比利时邮政</a><a
+                            href="https://m.kuaidi100.com/global/brazilposten.htm">巴西邮政</a><a
+                            href="https://m.kuaidi100.com/global/bulgarian.htm">保加利亚邮政</a><a
+                            href="https://m.kuaidi100.com/global/pakistan.htm">巴基斯坦邮政</a><a
+                            href="https://m.kuaidi100.com/global/belpost.htm">白俄罗斯邮政</a></dd>
+                    <dt><a id="c"></a>C</dt>
+                    <dd><a href="https://m.kuaidi100.com/global/citylink.htm">City-Link Express</a><a
+                            href="https://m.kuaidi100.com/global/chronopostport.htm">Chronopost Portugal</a><a
+                            href="https://m.kuaidi100.com/global/canpost.htm">Canada Post</a></dd>
+                    <dt><a id="d"></a>D</dt>
+                    <dd><a href="https://m.kuaidi100.com/global/dhlen.htm">DHL（国际件）</a><a
+                            href="https://m.kuaidi100.com/global/dhlde.htm">DHL（德国件）</a><a
+                            href="https://m.kuaidi100.com/global/dhlpoland.htm">DHL（波兰件）</a><a
+                            href="https://m.kuaidi100.com/global/dhlbenelux.htm">DHL Benelux</a><a
+                            href="https://m.kuaidi100.com/global/dpduk.htm">DPD（英国件）</a><a
+                            href="https://m.kuaidi100.com/global/dtdcindia.htm">DTDC India</a><a
+                            href="https://m.kuaidi100.com/global/dpd.htm">DPD</a><a
+                            href="https://m.kuaidi100.com/global/dpdgermany.htm">DPD（德国件）</a><a
+                            href="https://m.kuaidi100.com/global/dpdpoland.htm">DPD（波兰件）</a><a
+                            href="https://m.kuaidi100.com/global/dpex.htm">DPEX</a><a
+                            href="https://m.kuaidi100.com/global/deltec.htm">Deltec Courier</a><a
+                            href="https://m.kuaidi100.com/global/directlink.htm">Direct Link</a><a
+                            href="https://m.kuaidi100.com/global/postdanmarken.htm">丹麦邮政</a></dd>
+                    <dt><a id="e"></a>E</dt>
+                    <dd><a href="https://m.kuaidi100.com/global/ems.htm">EMS（中国件）</a><a
+                            href="https://m.kuaidi100.com/global/emsguoji.htm">EMS（国际件）</a><a
+                            href="https://m.kuaidi100.com/global/estes.htm">Estes</a><a
+                            href="https://m.kuaidi100.com/global/ecfirstclass.htm">EC-Firstclass</a></dd>
+                    <dt><a id="f"></a>F</dt>
+                    <dd><a href="https://m.kuaidi100.com/global/lianb.htm">FedEx（中国件）</a><a
+                            href="https://m.kuaidi100.com/global/fedex.htm">FedEx（国际件）</a><a
+                            href="https://m.kuaidi100.com/global/fedexus.htm">FedEx（美国件）</a><a
+                            href="https://m.kuaidi100.com/global/fedexuk.htm">FedEx（英国件）</a><a
+                            href="https://m.kuaidi100.com/global/fastway.htm">Fastway Ireland</a><a
+                            href="https://m.kuaidi100.com/global/chronopostfra.htm">法国邮政（大包EMS）</a></dd>
+                    <dt><a id="g"></a>G</dt>
+                    <dd><a href="https://m.kuaidi100.com/global/gaticn.htm">GATI</a><a
+                            href="https://m.kuaidi100.com/global/gatikwe.htm">Gati-KWE</a><a
+                            href="https://m.kuaidi100.com/global/gsm.htm">GSM</a></dd>
+                    <dt><a id="h"></a>H</dt>
+                    <dd><a href="https://m.kuaidi100.com/global/postnl.htm">荷兰邮政</a><a
+                            href="https://m.kuaidi100.com/global/koreapost.htm">韩国邮政</a><a
+                            href="https://m.kuaidi100.com/global/ucs.htm">合众速递（UCS）</a></dd>
+                    <dt><a id="i"></a>I</dt>
+                    <dd><a href="https://m.kuaidi100.com/global/seur.htm">International Seur</a><a
+                            href="https://m.kuaidi100.com/global/interlink.htm">Interlink Express</a></dd>
+                    <dt><a id="j"></a>J</dt>
+                    <dd><a href="https://m.kuaidi100.com/global/jialidatong.htm">嘉里大通</a><a
+                            href="https://m.kuaidi100.com/global/canpost.htm">加拿大邮政</a><a
+                            href="https://m.kuaidi100.com/global/ceskaposta.htm">捷克邮政</a></dd>
+                    <dt><a id="k"></a>K</dt>
+                    <dd><a href="https://m.kuaidi100.com/global/kcs.htm">KCS Express</a><a
+                            href="https://m.kuaidi100.com/global/hrvatska.htm">克罗地亚邮政</a></dd>
+                    <dt><a id="l"></a>L</dt>
+                    <dd><a href="https://m.kuaidi100.com/global/ldxpres.htm">LDXpress</a><a
+                            href="https://m.kuaidi100.com/global/lasership.htm">LaserShip</a><a
+                            href="https://m.kuaidi100.com/global/latvia.htm">拉脱维亚</a><a
+                            href="https://m.kuaidi100.com/global/lithuania.htm">立陶宛邮政</a><a
+                            href="https://m.kuaidi100.com/global/libanpost.htm">黎巴嫩邮政</a><a
+                            href="https://m.kuaidi100.com/global/romanian.htm">罗马尼亚邮政</a></dd>
+                    <dt><a id="m"></a>M</dt>
+                    <dd><a href="https://m.kuaidi100.com/global/mrw.htm">MRW</a><a
+                            href="https://m.kuaidi100.com/global/myhermes.htm">MyHermes</a><a
+                            href="https://m.kuaidi100.com/global/multipack.htm">Mexico Multipack</a><a
+                            href="https://m.kuaidi100.com/global/malaysiapost.htm">马来西亚邮政（小包）</a><a
+                            href="https://m.kuaidi100.com/global/malaysiaems.htm">马来西亚（大包EMS）</a><a
+                            href="https://m.kuaidi100.com/global/usps.htm">美国快递</a><a
+                            href="https://m.kuaidi100.com/global/mexico.htm">墨西哥邮政</a><a
+                            href="https://m.kuaidi100.com/global/macedonia.htm">马其顿邮政</a><a
+                            href="https://m.kuaidi100.com/global/malta.htm">马耳他邮政</a><a
+                            href="https://m.kuaidi100.com/global/moldova.htm">摩尔多瓦邮政</a><a
+                            href="https://m.kuaidi100.com/global/bangladesh.htm">孟加拉国（EMS）</a></dd>
+                    <dt><a id="n"></a>N</dt>
+                    <dd><a href="https://m.kuaidi100.com/global/novaposhta.htm">Nova Poshta</a><a
+                            href="https://m.kuaidi100.com/global/nuoyaao.htm">偌亚奥国际快递</a><a
+                            href="https://m.kuaidi100.com/global/postennorge.htm">挪威邮政</a><a
+                            href="https://m.kuaidi100.com/global/nigerianpost.htm">尼日利亚邮政小包</a></dd>
+                    <dt><a id="o"></a>O</dt>
+                    <dd><a href="https://m.kuaidi100.com/global/ocs.htm">OCS</a><a
+                            href="https://m.kuaidi100.com/global/opek.htm">OPEK（FedEx波兰）</a><a
+                            href="https://m.kuaidi100.com/global/ocaargen.htm">OCA Argentina</a></dd>
+                    <dt><a id="p"></a>P</dt>
+                    <dd><a href="https://m.kuaidi100.com/global/postenab.htm">Posten AB</a><a
+                            href="https://m.kuaidi100.com/global/portugalseur.htm">Portugal Seur</a><a
+                            href="https://m.kuaidi100.com/global/portugalctt.htm">葡萄牙邮政</a><a
+                            href="https://m.kuaidi100.com/global/ocs.htm">OCS</a><a
+                            href="https://m.kuaidi100.com/global/opek.htm">OPEK（FedEx波兰）</a><a
+                            href="https://m.kuaidi100.com/global/ocaargen.htm">OCA Argentina</a></dd>
+                    <dt><a id="r"></a>R</dt>
+                    <dd><a href="https://m.kuaidi100.com/global/ruidianyouzheng.htm">瑞典邮政</a><a
+                            href="https://m.kuaidi100.com/global/swisspost.htm">瑞士邮政</a><a
+                            href="https://m.kuaidi100.com/global/japanposten.htm">日本邮政</a><a
+                            href="https://m.kuaidi100.com/global/royaleig.htm">Royale</a></dd>
+                    <dt><a id="s"></a>S</dt>
+                    <dd><a href="https://m.kuaidi100.com/global/selektvracht.htm">Selektvracht</a><a
+                            href="https://m.kuaidi100.com/global/safexpress.htm">Safexpress</a><a
+                            href="https://m.kuaidi100.com/global/skynetmalaysia.htm">SkyNet（马来西亚）</a><a
+                            href="https://m.kuaidi100.com/global/serbia.htm">塞尔维亚邮政</a></dd>
+                    <dt><a id="t"></a>T</dt>
+                    <dd><a href="https://m.kuaidi100.com/global/tnt.htm">TNT</a><a
+                            href="https://m.kuaidi100.com/global/tntuk.htm">TNT（英国件）</a><a
+                            href="https://m.kuaidi100.com/global/tntau.htm">TNT（澳大利亚件）</a><a
+                            href="https://m.kuaidi100.com/global/tntitaly.htm">TNT（意大利件）</a><a
+                            href="https://m.kuaidi100.com/global/tollpriority.htm">Toll Priority</a><a
+                            href="https://m.kuaidi100.com/global/tunisia.htm">突尼斯邮政（EMS）</a></dd>
+                    <dt><a id="u"></a>U</dt>
+                    <dd><a href="https://m.kuaidi100.com/global/ups.htm">UPS</a><a
+                            href="https://m.kuaidi100.com/global/upsfreight.htm">UPS货运</a><a
+                            href="https://m.kuaidi100.com/global/upsmailinno.htm">UPS Mail Innovations</a><a
+                            href="https://m.kuaidi100.com/global/usps.htm">USPS</a></dd>
+                    <dt><a id="w"></a>W</dt>
+                    <dd><a href="https://m.kuaidi100.com/global/emsukraine.htm">乌克兰EMS</a><a
+                            href="https://m.kuaidi100.com/global/ukrpost.htm">乌克兰邮政</a><a
+                            href="https://m.kuaidi100.com/global/uzbekistan.htm">乌兹别克斯坦（小包、大包）</a></dd>
+                    <dt><a id="x"></a>X</dt>
+                    <dd><a href="https://m.kuaidi100.com/global/hkpost.htm">中国香港邮政</a><a
+                            href="https://m.kuaidi100.com/global/singpost.htm">新加坡邮政</a><a
+                            href="https://m.kuaidi100.com/global/speedpost.htm">新加坡邮政（大包、EMS）</a><a
+                            href="https://m.kuaidi100.com/global/eltahell.htm">希腊邮政</a><a
+                            href="https://m.kuaidi100.com/global/correosdees.htm">西班牙邮政</a><a
+                            href="https://m.kuaidi100.com/global/nsf.htm">新顺丰（NSF）</a><a
+                            href="https://m.kuaidi100.com/global/newzealand.htm">新西兰邮政</a><a
+                            href="https://m.kuaidi100.com/global/republic.htm">叙利亚邮政</a><a
+                            href="https://m.kuaidi100.com/global/caledonia.htm">新喀里多尼亚[法国]</a></dd>
+                    <dt><a id="y"></a>Y</dt>
+                    <dd><a href="https://m.kuaidi100.com/global/italysad.htm">意大利SAD</a><a
+                            href="https://m.kuaidi100.com/global/israelpost.htm">以色列邮政</a><a
+                            href="https://m.kuaidi100.com/global/jordan.htm">约旦邮政</a><a
+                            href="https://m.kuaidi100.com/global/india.htm">印度邮政</a><a
+                            href="https://m.kuaidi100.com/global/yemen.htm">也门邮政</a><a
+                            href="https://m.kuaidi100.com/global/haypost.htm">亚美尼亚邮政</a></dd>
+                    <dt><a id="z"></a>Z</dt>
+                    <dd><a href="https://m.kuaidi100.com/global/chile.htm">智利邮政</a></dd>
+                </dl>
+            </section>
+        </div>
+    </article>
+</div>

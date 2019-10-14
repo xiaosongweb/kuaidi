@@ -3,3 +3,10 @@
 @import './modules/header.scss';
 @import './modules/menu-list.scss';
 @import './modules/price.scss';
+@import './modules/all.scss';
+
+@import './modules/add.scss';
+
+#root {
+    height: 100%;
+}

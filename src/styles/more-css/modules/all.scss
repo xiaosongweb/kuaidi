@@ -1,0 +1,65 @@
+.all {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+
+    .main-title {
+        width: 100%;
+        background: #fff;
+        display: flex;
+        justify-content: space-around;
+
+        .main-title-name {
+            font-size: 15px;
+            color: #888;
+            width: 68px;
+            text-align: center;
+            height: 40px;
+            line-height: 40px;
+        }
+
+        .choose {
+            color: #317ee7;
+            border-bottom: 2px solid #317ee7;
+        }
+    }
+
+    article {
+        display: none;
+
+        .kd-content {
+            >section {
+                .dl-list dt {
+                    padding: .048rem;
+                    color: #888888;
+                    font-size: 14px;
+                    background-color: #f0f0f0;
+                }
+
+                .dl-list dd {
+                    background-color: #fff;
+
+                    a {
+                        display: block;
+                        padding: .16rem;
+                        color: #5a5a5a;
+                        border-bottom: 1px solid #f0f0f0;
+
+                        img {
+                            margin-right: .16rem;
+                            width: .48rem;
+                            height: .48rem;
+                            border-radius: .24rem;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .active {
+        display: block !important;
+    }
+}

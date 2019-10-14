@@ -4,7 +4,7 @@ import { serialize } from '../../lib/tools'
 import rootController from '../controllers/root'
 import headerController from '../controllers/header'
 import menuListController from '../controllers/menuList'
-import priceController from '../controllers/price'
+import controller from './config/route'
 
 class Router {
     constructor() {
@@ -13,21 +13,14 @@ class Router {
         rootController.init()
         headerController.init(serializeName)
         menuListController.init()
-      
         this.init()
-
     }
     init() {
         $(window).on('load', this.handlePageload.bind(this))
         $(window).on('hashchange', this.handleHash.bind(this))
     }
     renderDOM(hash) {
-        let controller = {
-            priceController
-        }
-
         controller[hash + 'Controller'].init()
-
     }
 
     handleHash() {
@@ -42,7 +35,6 @@ class Router {
         let path = reg.exec(hash)
         location.hash = hash
         this.renderDOM(path[1])
-
     }
 
 

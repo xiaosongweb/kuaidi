@@ -11,19 +11,19 @@
     </div>
     <div class="page-col">
         <ul>
-            <li><a href="/morder/history.jsp">
+            <li><a href="more.html#add">
                     <div class="ico courier"></div>
                     <div class="text">我的订单</div>
                 </a></li>
-            <li><a href="/history.jsp">
+            <li><a href="more.html#query">
                     <div class="ico record"></div>
                     <div class="text">查件记录</div>
                 </a></li>
-            <li><a href="/all/">
+            <li><a href="more.html#all">
                     <div class="ico all"></div>
                     <div class="text">快递大全</div>
                 </a></li>
-            <li><a href="/price/">
+            <li><a href="more.html#price">
                     <div class="ico time"></div>
                     <div class="text">时效价格</div>
                 </a></li>
