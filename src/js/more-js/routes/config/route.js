@@ -1,4 +1,3 @@
-
 import priceController from '../../controllers/price'
 import allController from '../../controllers/all'
 import globalController from '../../controllers/global'
@@ -23,5 +22,4 @@ let controller = {
     pointController,
     queryController
 }
-
 export default controller

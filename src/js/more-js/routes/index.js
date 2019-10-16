@@ -8,10 +8,9 @@ import controller from './config/route'
 
 class Router {
     constructor() {
-        let hash = location.hash
-        let serializeName = serialize(hash)
+        let hash = location.hash.substr(1)
         rootController.init()
-        headerController.init(serializeName)
+        headerController.init(serialize(hash))
         menuListController.init()
         this.init()
     }
@@ -22,12 +21,12 @@ class Router {
     renderDOM(hash) {
         controller[hash + 'Controller'].init()
     }
-
     handleHash() {
         let hash = location.hash.substr(1)
         let reg = new RegExp('^(\\w+)', 'g')
         let path = reg.exec(hash)
         this.renderDOM(path[1])
+        headerController.init(serialize(path[1]))
     }
     handlePageload() {
         let hash = location.hash.substr(1) || 'price'
@@ -36,7 +35,6 @@ class Router {
         location.hash = hash
         this.renderDOM(path[1])
     }
-
 
 }
 export default new Router()

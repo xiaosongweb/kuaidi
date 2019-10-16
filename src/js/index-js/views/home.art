@@ -2,7 +2,7 @@
     <div class="logo"></div>
     <div class="app-form">
         <div class="app-form-ctrl">
-            <input type="text" placeholder="请输入快递单号">
+            <input type="text" placeholder="请输入快递单号" class="search">
             <div class="scan" style=""></div>
             <div class="clear-input-new clear" style="display: none;"><img
                     src="https://cdn.kuaidi100.com/images/m/icons/ico_close.png"></div>

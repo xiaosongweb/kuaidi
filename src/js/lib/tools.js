@@ -15,10 +15,10 @@ module.exports = {
             point: '积分商城',
             about: '关于我们',
             help: '帮助中心',
-            addr:"地址管理"
+            addr: "地址管理"
         }
         for (let item in naemList) {
-            if (hash === "#" + item) {
+            if (hash === item) {
                 return naemList[item]
             }
         }

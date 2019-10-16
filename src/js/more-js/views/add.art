@@ -1,1 +1,13 @@
-<div class="orderimport"></div>
+<div class="orderimport">
+    <div class="history-list">
+        <ul id="hisList"></ul>
+        <div class="noresult" style="">
+            <div class="no-result-icon"></div>
+            <div class="no-result-text">没有您的寄件订单<br>马上寄个快递让我派上用场吧~</div>
+        </div>
+        <div id="viewRecycle" class="pd10">
+            <p class="t-center"><a>查看30天以前的订单</a></p>
+        </div>
+    </div>
+
+</div>

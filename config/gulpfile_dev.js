@@ -4,16 +4,38 @@ const sass = require('gulp-sass')
 const path = require('path')
 const webpack = require('webpack-stream')
 const proxy = require('http-proxy-middleware')
+const { proxyList } = require('./proxy_config')
 const devPath = '../dev'
+
 function opendServer() {
     return connect.server({
         name: 'Dev App',
         root: [`${devPath}`],
         port: 9000,
         livereload: true,
-        // host:'10.9.49.228'
+        middleware: function () {
+            let list = []
+            for (let attr in proxyList) {
+                let url = '/' + attr
+                let key = '^/' + attr
+                list.push(
+                    proxy(url, {
+                        target: proxyList[attr],
+                        changeOrigin: true,
+                        pathRewrite: {
+                            [key]: ''
+                        }
+                    })
+                )
+            }
+            return list
+        }
     });
 }
+
+
+
+
 function copyHtml() {
     return src('../src/**/*.html')
         .pipe(dest(`${devPath}`))

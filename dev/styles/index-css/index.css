@@ -1005,6 +1005,141 @@ a {
         width: 46px;
         height: 16px; }
 
+.courier nav {
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  font-size: .14rem;
+  background: #fff;
+  padding: 0 10px;
+  height: .43rem;
+  color: #888; }
+  .courier nav .keyword {
+    flex: 1;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #333; }
+    .courier nav .keyword:before {
+      display: inline-block;
+      width: .12rem;
+      height: .14rem;
+      content: '';
+      margin-right: 5px;
+      background: url(https://cdn.kuaidi100.com/images/m/dispatch/location.png) 0 0/100% no-repeat;
+      vertical-align: -2px; }
+  .courier nav:after {
+    width: 0.084rem;
+    height: 0.084rem;
+    border-top: 1px solid #888;
+    border-right: 1px solid #888;
+    border-top-right-radius: 2px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    content: ""; }
+
+.courier .menu-tab {
+  display: block;
+  text-align: center;
+  background: #FFF;
+  line-height: 30px; }
+  .courier .menu-tab span.active {
+    color: #317ee7;
+    border-bottom: 2px solid; }
+  .courier .menu-tab span {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0 .28rem;
+    color: #888;
+    font-size: .14rem; }
+    .courier .menu-tab span i {
+      position: absolute;
+      left: 100%;
+      top: -1px;
+      margin-left: 2px;
+      width: 35px;
+      height: 17px;
+      background-size: 100%;
+      background-repeat: no-repeat; }
+  .courier .menu-tab .immediat {
+    background-image: url(https://cdn.kuaidi100.com/images/m/dispatch/immediat.png); }
+  .courier .menu-tab .heavy {
+    background-image: url(https://cdn.kuaidi100.com/images/m/dispatch/heavy.png); }
+
+.courier .wrap {
+  padding: 10px; }
+  .courier .wrap ul .courier-card {
+    position: relative;
+    background: 0 0/100% 100% #3278e6;
+    background-image: url(https://cdn.kuaidi100.com/images/all/card/bg/debangkuaidi.png?version=2);
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding: .14rem;
+    overflow: hidden;
+    color: #FFF; }
+    .courier .wrap ul .courier-card .info {
+      display: -webkit-flex;
+      display: flex;
+      align-items: center; }
+      .courier .wrap ul .courier-card .info .avatar {
+        width: .48rem;
+        height: .48rem;
+        margin-right: .14rem;
+        border-radius: 50%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+        background-image: url(https://cdn.kuaidi100.com/images/all/56/debangkuaidi.png); }
+      .courier .wrap ul .courier-card .info .text {
+        width: 0;
+        flex: 1; }
+        .courier .wrap ul .courier-card .info .text .name-wrap,
+        .courier .wrap ul .courier-card .info .text .sign {
+          display: -webkit-flex;
+          display: flex; }
+        .courier .wrap ul .courier-card .info .text .score-wrap {
+          font-size: .12rem;
+          line-height: .28rem; }
+          .courier .wrap ul .courier-card .info .text .score-wrap span {
+            display: inline-block;
+            margin-right: 4px; }
+        .courier .wrap ul .courier-card .info .text .tags {
+          white-space: nowrap; }
+          .courier .wrap ul .courier-card .info .text .tags span {
+            display: inline-block;
+            padding: 0 5px;
+            margin-right: 5px;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: 2px;
+            font-size: .1rem; }
+    .courier .wrap ul .courier-card .name {
+      flex-shrink: 1;
+      font-size: .16rem;
+      white-space: nowrap;
+      padding-right: 4px;
+      text-overflow: ellipsis;
+      overflow: hidden; }
+    .courier .wrap ul .courier-card .comlist {
+      transform: scale(0.5);
+      transform-origin: 0 100%;
+      font-size: 0; }
+      .courier .wrap ul .courier-card .comlist i {
+        display: inline-block;
+        width: .32rem;
+        height: .32rem;
+        margin-right: 8px;
+        border-radius: 50%;
+        background-size: 100%;
+        vertical-align: middle;
+        font-style: normal;
+        text-align: center;
+        line-height: .32rem;
+        font-size: .16rem;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        color: #FFF;
+        background-image: url(https://cdn.kuaidi100.com/images/all/56/debangkuaidi.png); }
+
 .more {
   background: #FFF;
   display: -webkit-flex;

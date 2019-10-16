@@ -1,3 +1,36 @@
 <div class="courier">
-    this is courier
+    <nav>
+        取件地址：
+        <div class="keyword">北京市昌平区沙河镇沙河二毛生活小区北京科技职业学院</div>
+    </nav>
+    <div class="menu-tab"><span class="active">寄快递</span> <span>同城急送<i class="immediat"></i></span> <span>寄大件<i
+                class="heavy"></i></span>
+    </div>
+    <!---->
+    <div class="wrap">
+        <!---->
+        <ul>
+            <li class="courier-card"
+                style="background-image: url(&quot;https://cdn.kuaidi100.com/images/all/card/bg/debangkuaidi.png?version=2&quot;);">
+                <div class="info">
+                    <div class="avatar"
+                        style="background-image: url(&quot;https://cdn.kuaidi100.com/images/all/56/debangkuaidi.png&quot;);">
+                    </div>
+                    <div class="text">
+                        <div class="name-wrap">
+                            <div class="name">德邦快递（上门取件）</div>
+                            <!---->
+                        </div>
+                        <div class="score-wrap"><span>收件率99.0% 月收5000+件</span></div>
+                        <div class="tags"><span>免手写面单</span><span>按约定时间取件</span><span>大件更实惠</span></div>
+                    </div>
+                </div>
+                <div class="comlist"><i
+                        style="background-image: url(&quot;https://cdn.kuaidi100.com/images/all/56/debangkuaidi.png&quot;);"></i>
+                </div>
+                <!---->
+                <!---->
+            </li>
+        </ul>
+    </div>
 </div>

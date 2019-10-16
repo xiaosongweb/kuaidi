@@ -983,5 +983,101 @@ a {
   .all .active {
     display: block !important; }
 
+.orderimport {
+  height: 100%; }
+  .orderimport .history-list {
+    padding-top: .132rem; }
+    .orderimport .history-list .noresult {
+      text-align: center;
+      color: #888;
+      font-size: .14rem;
+      -webkit-transition: all .4s;
+      transition: all .4s; }
+      .orderimport .history-list .noresult .no-result-icon {
+        display: inline-block;
+        width: 1rem;
+        height: 1rem;
+        background: url(https://cdn.kuaidi100.com/images/m/nor.png);
+        background-size: 100% auto;
+        margin-bottom: .128rem; }
+    .orderimport .history-list .pd10 {
+      padding: 10px; }
+      .orderimport .history-list .pd10 .t-center {
+        text-align: center;
+        font-size: .14rem;
+        line-height: .24rem; }
+
+.query {
+  height: 100%; }
+  .query .search {
+    position: relative;
+    padding: .08rem .128rem;
+    display: -webkit-box;
+    -webkit-box-align: center; }
+    .query .search .search-ico {
+      position: absolute;
+      left: 37%;
+      top: 50%;
+      margin-left: -.06rem;
+      margin-top: -.06rem;
+      width: .12rem;
+      height: .12rem;
+      border: 2px solid #d5d5d5;
+      border-radius: 50%; }
+      .query .search .search-ico:before {
+        position: absolute;
+        right: -5px;
+        top: .07rem;
+        height: 2px;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        width: 6px;
+        background: #d5d5d5;
+        content: ''; }
+      .query .search .search-ico:after {
+        position: absolute;
+        right: -0.952rem;
+        top: -.064rem;
+        font-size: .14rem;
+        color: #d5d5d5;
+        content: '在结果中搜索';
+        white-space: nowrap; }
+    .query .search input {
+      display: block;
+      -webkit-box-flex: 1;
+      width: 0;
+      outline: none;
+      border: none;
+      background: #fff;
+      padding: .056rem .14rem;
+      border-radius: 4px;
+      font-size: .14rem; }
+  .query .tab {
+    display: -webkit-box;
+    font-size: 14px;
+    background: #fff;
+    box-shadow: 0 0 3px #ddd; }
+    .query .tab a.active {
+      border-bottom: 2px solid #3278e6;
+      color: #3278e6; }
+    .query .tab a {
+      display: block;
+      width: 50%;
+      -webkit-box-flex: 1;
+      text-align: center;
+      line-height: .364rem;
+      color: #333;
+      margin: 0 8px;
+      box-sizing: border-box; }
+  .query .empty {
+    margin-top: .07rem;
+    background: #fff;
+    text-align: center;
+    color: #888;
+    line-height: .42rem;
+    font-size: 14px; }
+    .query .empty img {
+      width: 100px; }
+
 #root {
   height: 100%; }
