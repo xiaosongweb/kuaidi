@@ -1,0 +1,197 @@
+.result {
+    .flex {
+        display: -webkit-flex;
+        display: flex;
+    }
+
+    .head {
+        padding: .12rem;
+        background-color: #3481ed;
+
+        .input {
+            position: relative;
+            align-items: center;
+            padding: 0 .112rem;
+            height: .38rem;
+            border-radius: 3px;
+            font-size: 14px;
+            background-color: #fff;
+
+            input {
+                flex: 1;
+                -webkit-appearance: none;
+                outline: none;
+                border: none;
+            }
+
+            .clear {
+                width: 24px;
+                height: 18px;
+                margin: 0 5px;
+                background: url(https://cdn.kuaidi100.com/images/m/icons/ico_close.png) no-repeat;
+                background-size: auto 100%;
+                border-right: 1px solid #dedede;
+            }
+
+            .scan {
+                position: relative;
+                width: .192rem;
+                height: .192rem;
+                background-image: url(https://cdn.kuaidi100.com/images/m/ico_scan.png);
+                background-size: 100% auto;
+                background-repeat: no-repeat;
+            }
+
+            .search {
+                position: relative;
+                width: .16rem;
+                height: .16rem;
+                margin-left: 3px;
+                background-image: url(https://cdn.kuaidi100.com/images/m/icons/ico_search.png);
+                background-size: 100% auto;
+            }
+
+            .search-list {
+                position: absolute;
+                top: 42px;
+                left: 0;
+                width: 100%;
+                background: #fff;
+                outline: 1px solid #dedede;
+                z-index: 5;
+
+                li {
+                    color: #317ee7;
+                    line-height: .336rem;
+                    font-size: .14rem;
+                    padding: 0 .07rem;
+                    border-bottom: 1px solid #dedede;
+
+                    small {
+                        float: right;
+                        color: #888;
+                        max-width: .84rem;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        white-space: nowrap;
+                    }
+                }
+            }
+        }
+    }
+
+    .cominfo {
+        align-items: center;
+        padding: 10px;
+        border-bottom: 1px solid #efeff4;
+        font-size: .16rem;
+        background: #fff;
+
+        .logo {
+            width: .4rem;
+            height: .4rem;
+            margin-right: 10px;
+            border-radius: 50%;
+            background-size: 100%;
+        }
+
+        .text {
+            width: 0;
+            flex: 1;
+
+            .tel {
+                display: inline-block;
+                width: .24rem;
+                height: .24rem;
+                margin-left: 5px;
+                vertical-align: -7px;
+                background: url(https://cdn.kuaidi100.com/images/m/icons/ico_phone.png) center center no-repeat;
+                background-size: .16rem auto;
+            }
+
+            .select-wrap {
+                position: relative;
+                display: inline-block;
+
+                small {
+                    font-size: 13px;
+                    color: #317ee7;
+                }
+
+                :after {
+                    display: inline-block;
+                    width: .048rem;
+                    height: .048rem;
+                    margin-left: 5px;
+                    vertical-align: 2px;
+                    border-top: 1px solid;
+                    border-right: 1px solid;
+                    -webkit-transform: rotate(45deg);
+                    transform: rotate(45deg);
+                    content: '';
+                }
+
+                select {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    left: 0;
+                    right: 0;
+                    z-index: 2;
+                    -webkit-appearance: none;
+                    opacity: 0;
+                }
+            }
+        }
+
+        .redpack {
+            width: .38rem;
+            padding: 0;
+            position: relative;
+            margin: 10px 0;
+            overflow: hidden;
+            text-align: center;
+            opacity: 0;
+
+            a {
+                color: #317ee7;
+                position: relative;
+                z-index: 2;
+            }
+
+            img {
+                max-width: 100%;
+            }
+        }
+
+        .redpack:after {
+            content: "";
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            background: inherit;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            margin-left: 44px;
+            width: 50px;
+            height: 22px;
+            -webkit-animation: loading 2s steps(4, end) infinite;
+            animation: loading 2s steps(4, end) infinite;
+        }
+    }
+
+    .result-box {
+        background: #fff;
+
+        .m-placeholder {
+            padding: .16rem;
+            text-align: center;
+            font-size: .14rem;
+            color: #888;
+
+            .img {
+                width: 80%;
+            }
+        }
+    }
+}

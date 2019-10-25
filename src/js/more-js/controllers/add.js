@@ -1,6 +1,6 @@
 import addView from '../views/add.art'
 class InitAdd {
-    init() {
+    init(session) {
         let html = addView()
         $('main').html(html)
     }

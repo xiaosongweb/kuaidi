@@ -13,13 +13,37 @@ class Router {
         headerController.init(serialize(hash))
         menuListController.init()
         this.init()
+        
+
     }
+    hasLogin() {
+        if (!localStorage.getItem('user')) {
+            return false
+        }
+        let { username, token } = JSON.parse(localStorage.getItem('user'))
+        $.ajax({
+            url: '/checkUser',
+            type: 'POST',
+            data: {
+                username: username,
+                token: token
+            },
+            success: function (res) {
+                if (res.code === 3) {
+                    localStorage.clear('user')
+                }
+            }
+        })
+    }
+
     init() {
         $(window).on('load', this.handlePageload.bind(this))
         $(window).on('hashchange', this.handleHash.bind(this))
     }
     renderDOM(hash) {
-        controller[hash + 'Controller'].init()
+        this.hasLogin()
+        let session = localStorage.getItem('user') ? JSON.parse(localStorage.getItem('user')) : {}
+        controller[hash + 'Controller'].init(session)
     }
     handleHash() {
         let hash = location.hash.substr(1)

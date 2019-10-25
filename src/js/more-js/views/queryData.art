@@ -1,0 +1,10 @@
+{{each data}}
+<li>
+    <div class="logo" style="background-image: url(&quot;{{$value.imgUrl}}&quot;);"></div>
+    <div class="info">
+        <div>{{$value.cscName}}</div>
+        <div><small>{{$value.orderId}}</small></div>
+    </div>
+    <div class="ctrl"></div> <time>{{$value.time}}</time>
+</li>
+{{/each}}

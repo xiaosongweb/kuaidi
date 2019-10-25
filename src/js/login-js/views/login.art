@@ -1,0 +1,17 @@
+<div class="login">
+    <h3 id="title">账号密码登录</h3>
+    <form action="/sso/login.do" method="POST" id="account">
+
+        <div class="form-ctrl">
+            <input type="text" placeholder="手机号/邮箱/用户名" name="name" id="name" autocomplete="name" value=""></div>
+        <div class="form-ctrl">
+            <input type="password" placeholder="请输入密码" name="password" id="password" value="">
+        </div>
+    </form>
+    <div class="text-warn" id="warn">请输入用户名</div>
+    <button class="btn-submit" id="submit" role="account">登录</button>
+    <div class="type" id="type">
+        <a role="reg" class="fr" id="goReg">立即注册</a>
+    </div>
+
+</div>

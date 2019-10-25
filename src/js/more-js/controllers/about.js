@@ -1,6 +1,6 @@
 import aboutView from '../views/about.art'
 class InitAbout {
-    init() {
+    init(session) {
         let html = aboutView()
         $('main').html(html)
     }

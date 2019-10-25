@@ -16,7 +16,9 @@
                     <div class="text">我的订单</div>
                 </a></li>
             <li><a href="more.html#query">
-                    <div class="ico record"></div>
+                    <div class="ico record">
+                        <div class="show"></div>
+                    </div>
                     <div class="text">查件记录</div>
                 </a></li>
             <li><a href="more.html#all">
@@ -34,7 +36,19 @@
             <div>历史纪录</div>
             <div><a href="/history.jsp">管理单号</a></div>
         </div>
-        <div class="box">
+        <ul>
+            {{each data}}
+            <li><small>{{$value.time}}</small>
+                <div class="com">
+                    <div class="ico" style="background-image: url(&quot;{{$value.imgUrl}}&quot;);">
+                    </div>{{$value.cscName}}
+                </div>
+                <div class="num">{{$value.orderId}}</div>
+            </li>
+            {{/each}}
+
+        </ul>
+        <div class="box" style="display: none;">
             <div class="nor-new">
                 <p>暂无查询记录</p>
                 <p><small>立即输入单号查询快递进度吧</small></p>
@@ -83,7 +97,7 @@
             <p class="copyright-meun"><a id="downApp">下载APP</a><a id="showCode">关注微信</a></p>
             <p class='copyright-icp'>
                 <a title="快递100-查快递、寄快递、上快递100">
-                    <img src="https://cdn.kuaidi100.com/images/smart/logo_footer.png" ></a>
+                    <img src="https://cdn.kuaidi100.com/images/smart/logo_footer.png"></a>
                 <a>粤ICP备14085002号-5</a>
             </p>
         </section>

@@ -1,10 +1,8 @@
 import couponView from '../views/coupon.art'
 class InitCoupon {
-    init() {
+    init(session) {
         let html = couponView()
         $('main').html(html)
     }
-
-
 }
 export default new InitCoupon()

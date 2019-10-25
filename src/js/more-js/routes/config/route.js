@@ -9,6 +9,9 @@ import helpController from '../../controllers/help'
 import messController from '../../controllers/mess'
 import pointController from '../../controllers/point'
 import queryController from '../../controllers/query'
+import meController from '../../controllers/me'
+import resultController from '../../controllers/result'
+
 let controller = {
     priceController,
     allController,
@@ -20,6 +23,8 @@ let controller = {
     helpController,
     messController,
     pointController,
-    queryController
+    queryController,
+    meController,
+    resultController
 }
 export default controller

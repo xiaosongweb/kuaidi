@@ -4,16 +4,15 @@
     flex-direction: column;
 
     header {
-        height: 40px;
+        height: 1.21rem;
+        margin-top: 30px;
     }
 
     main {
         flex: 1;
         overflow-y: scroll;
         height: 100%;
-        // background: #fff;
-        display: flex;
-        flex-direction: column;
+  
     }
 
 }

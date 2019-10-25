@@ -1,14 +1,27 @@
 <div class="query">
 
-    <div class="search"><span class="search-ico"></span> <input type="text" placeholder="">
+    <div class="search"><span class="search-ico"></span> <input type="text" placeholder="" id="search">
         <div class="cancel" style="display: none;">取消</div>
     </div>
     <div class="tab"><a class="active">全部</a> <a class="">未签收</a> <a class="">已签收</a> <a class="">回收站</a></div>
-    <div class="empty" style=""><img src="https://cdn.kuaidi100.com/images/m/nor.png" alt="">
+    <div class="empty"><img src="https://cdn.kuaidi100.com/images/m/nor.png" alt="">
         <p>没有对应的查件记录</p>
     </div>
-    <!---->
-    <div class="in-loading" style="display: none;"><img src="https://cdn.kuaidi100.com/images/loading.gif" alt=""
+    <ul class="explist">
+    </ul>
+    <div class="in-loading" style=""><img src="https://cdn.kuaidi100.com/images/loading.gif" alt=""
             style="display: none;"> <span style="">已加载全部数据</span></div>
+    <!---->
 
+
+</div>
+<div class="m-mask" style="">
+    <div class="actionsheet open">
+        <div class="title">请选择</div>
+        <ul>
+            <li class="danger">删除</li>
+            <li style="display: none;">恢复</li>
+        </ul>
+        <div class="cancel">取消</div>
+    </div>
 </div>

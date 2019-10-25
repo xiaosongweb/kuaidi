@@ -7,26 +7,49 @@ import moreController from '../controllers/more'
 import centerController from '../controllers/center'
 import footerController from '../controllers/footer'
 import main_background from '../../../styles/index-css/modules/background.scss'
-import routes from './config/config_route'
+
 
 class Router {
     constructor() {
         rootController.init()
         footerController.init()
         this.init()
+
     }
     init() {
         $(window).on('load', this.handlePageload.bind(this))
         $(window).on('hashchange', this.handleHash.bind(this))
     }
+    hasLogin() {
+        if (!localStorage.getItem('user')) {
+            location.hash = '#login'
+            return false
+        }
+        let { username, token } = JSON.parse(localStorage.getItem('user'))
+        $.ajax({
+            url: '/checkUser',
+            type: 'POST',
+            data: {
+                username: username,
+                token: token
+            },
+            success: function (res) {
+                if (res.code === 3) {
+                    localStorage.clear('user')
+                }
+            }
+        })
+    }
     renderDOM(hash) {
+        this.hasLogin()
+        let session = localStorage.getItem('user') ? JSON.parse(localStorage.getItem('user')) : {}
         let controller = {
             homeController,
             courierController,
             moreController,
             centerController
         }
-        controller[hash + 'Controller'].init()
+        controller[hash + 'Controller'].init(session)
         if (hash === 'home') {
             main_background.use()
             return false
@@ -52,6 +75,7 @@ class Router {
 
     addActive(hash) {
         $(`.footer a[href="#${hash}"]`).addClass('active').siblings().removeClass('active')
+        
     }
 }
 export default new Router()

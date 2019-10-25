@@ -1,6 +1,6 @@
 import priceView from '../views/price.art'
 class InitPrice {
-    init() {
+    init(session) {
         let html = priceView()
         $('main').html(html)
         this.bindEvent()
@@ -16,7 +16,6 @@ class InitPrice {
     }
     decrease() {
         if ($('.small').val() <= 1) {
-            console.log(this)
             $(this).addClass('disabled')
             return false
         }

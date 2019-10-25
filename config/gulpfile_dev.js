@@ -52,7 +52,8 @@ function copyJs() {
         .pipe(webpack({
             entry: {
                 index: '../src/js/index-js/index.js',
-                more: '../src/js/more-js/more.js'
+                more: '../src/js/more-js/more.js',
+                login:'../src/js/login-js/login.js'
             },
             output: {
                 filename: '[name].js',

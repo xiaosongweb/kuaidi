@@ -15,7 +15,9 @@ module.exports = {
             point: '积分商城',
             about: '关于我们',
             help: '帮助中心',
-            addr: "地址管理"
+            addr: '地址管理',
+            me: '个人中心',
+            result: '快递100'
         }
         for (let item in naemList) {
             if (hash === item) {

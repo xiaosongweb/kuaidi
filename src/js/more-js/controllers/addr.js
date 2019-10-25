@@ -1,6 +1,6 @@
 import addrView from '../views/addr.art'
 class InitAddr {
-    init() {
+    init(session) {
         let html = addrView()
         $('main').html(html)
     }

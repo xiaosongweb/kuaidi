@@ -1,6 +1,6 @@
 import moreView from '../views/more.art'
 class InitMore {
-    init() {
+    init(session) {
         let html = moreView()
         $("main").html(html)
     }

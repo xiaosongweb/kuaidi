@@ -725,677 +725,172 @@ a {
   display: flex;
   flex-direction: column; }
   .root header {
-    height: 40px; }
+    height: 1.21rem;
+    margin-top: 30px; }
   .root main {
     flex: 1;
     overflow-y: scroll;
-    height: 100%;
-    display: flex;
-    flex-direction: column; }
+    height: 100%; }
 
-.common-header {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  z-index: 5;
-  background: #317ee7; }
-  .common-header .common-back {
-    position: relative;
-    height: .092rem;
-    width: .092rem;
-    border-top: 2px solid #aaa;
-    border-left: 2px solid #aaa;
-    border-radius: 2px 0 0;
-    margin: 0 .16rem;
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    border-color: #fff; }
-  .common-header .common-title {
-    -webkit-flex-grow: 1;
-    text-align: center;
-    color: #fff;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis; }
-  .common-header .common-menu {
-    padding-right: .16rem; }
-  .common-header .common-menu span,
-  .common-header .common-menu:after,
-  .common-header .common-menu:before {
-    display: inline-block;
-    width: 4px;
-    height: 4px;
-    margin-left: 4px;
-    background: #fff;
-    border-radius: 50%;
-    margin-top: -3px;
-    vertical-align: middle; }
-  .common-header .common-menu:after,
-  .common-header .common-menu:before {
-    content: ''; }
-
-.common-menu-list {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 99;
-  background: rgba(0, 0, 0, 0.1);
-  display: none; }
-  .common-menu-list ul:before {
-    position: absolute;
-    right: 5px;
-    top: -5px;
-    border-bottom: 5px solid #FFF;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    content: ''; }
-  .common-menu-list ul {
-    width: 1.09rem;
-    position: absolute;
-    right: .08rem;
-    top: .48rem;
-    z-index: 1;
-    background-color: #FFF;
-    color: #333;
-    font-size: .14rem;
-    line-height: .35rem;
-    border-radius: 4px;
-    transition: all .2s;
-    transform: scale(1);
-    transform-origin: 100% 0;
-    box-shadow: 0 0 0.1rem rgba(0, 0, 0, 0.3); }
-    .common-menu-list ul li {
-      border-bottom: 1px solid #efeff4; }
-      .common-menu-list ul li a,
-      .common-menu-list ul li .common-menu-list a:hover,
-      .common-menu-list ul li .common-menu-list a:visited {
-        color: #333; }
-      .common-menu-list ul li a {
-        display: flex;
-        align-items: center;
-        justify-content: center; }
-        .common-menu-list ul li a .i {
-          display: inline-block;
-          width: .25rem;
-          height: .25rem;
-          vertical-align: middle;
-          margin: 0 .08rem;
-          background-image: url(https://cdn.kuaidi100.com/images/m/icons/toolbar.png?version=5);
-          background-size: 25px auto; }
-        .common-menu-list ul li a .txt {
-          flex: 1; }
-    .common-menu-list ul li:nth-child(2) .i {
-      background-position: 0 -25px; }
-    .common-menu-list ul li:nth-child(3) .i {
-      background-position: 0 -75px; }
-    .common-menu-list ul li:nth-child(4) .i {
-      background-position: 0 -50px; }
-
-.price {
-  padding: 10px;
-  background: #efeff4; }
-  .price .form {
-    background: #fff; }
-    .price .form .form-control:nth-last-child(2) {
-      border-bottom: 1px solid #efeff4; }
-    .price .form .form-control {
-      display: -webkit-box;
-      box-sizing: border-box;
-      -webkit-box-align: center;
-      position: relative;
-      padding: 0 .2rem;
-      font-size: .16rem;
-      color: #333;
-      background: #fff; }
-      .price .form .form-control label {
-        display: block;
-        width: .8rem;
-        height: .288rem;
-        color: #888; }
-      .price .form .form-control .input {
-        -webkit-box-flex: 1;
-        margin-left: 5px;
-        border-bottom: 1px solid #efeff4;
-        line-height: .56rem; }
-    .price .form:nth-child(1) label.st,
-    .price .form:nth-child(1) label.ds {
-      background-image: url(https://cdn.kuaidi100.com/images/m/price.png?version=201800716);
-      background-size: 25px;
-      background-repeat: no-repeat;
-      background-position: center 0;
-      width: .24rem; }
-    .price .form:nth-child(1) label.ds {
-      background-position: center -40px; }
-    .price .form:nth-child(1) .input.empty {
-      color: #bebebe; }
-    .price .form:nth-child(2) {
-      margin-top: 10px; }
-      .price .form:nth-child(2) .right .input {
-        text-align: right; }
-      .price .form:nth-child(2) .num-ctrl {
-        border: 0;
-        display: -webkit-box;
-        -webkit-box-pack: end;
-        -webkit-box-align: center; }
-        .price .form:nth-child(2) .num-ctrl .number-wrap {
-          padding: 0 .16rem; }
-          .price .form:nth-child(2) .num-ctrl .number-wrap .small {
-            display: inline-block;
-            outline: 0;
-            border: 0;
-            width: .32rem;
-            text-align: center;
-            -webkit-box-flex: 0; }
-        .price .form:nth-child(2) .num-ctrl .minus,
-        .price .form:nth-child(2) .num-ctrl .plus {
-          position: relative;
-          width: .24rem;
-          height: .24rem;
-          border: 1px solid;
-          border-radius: 50%;
-          color: #3278e6; }
-        .price .form:nth-child(2) .num-ctrl .minus:before,
-        .price .form:nth-child(2) .num-ctrl .plus:before {
-          position: absolute;
-          left: 50%;
-          top: 50%;
-          transform: translate(-50%, -50%) scale(0.5);
-          width: 20px;
-          border-top: 2px solid;
-          content: ''; }
-        .price .form:nth-child(2) .num-ctrl .plus:after {
-          position: absolute;
-          left: 50%;
-          top: 50%;
-          transform: translate(-50%, -50%) scale(0.5);
-          height: 20px;
-          border-left: 2px solid;
-          content: ''; }
-        .price .form:nth-child(2) .num-ctrl .minus.disabled,
-        .price .form:nth-child(2) .num-ctrl .plus.disabled {
-          color: #d8d8d8; }
-      .price .form:nth-child(2) .next:after {
-        display: block;
-        width: .1rem;
-        height: .1rem;
-        border-top: 1px solid #b4b4b4;
-        border-right: 1px solid #b4b4b4;
-        border-top-right-radius: 2px;
-        -webkit-transform: rotate(45deg);
-        transform: rotate(45deg);
-        margin-left: 5px;
-        content: ''; }
-  .price .center {
-    text-align: center;
-    color: #aaa;
-    font-size: .14rem;
-    line-height: .48rem; }
-  .price .foot {
-    padding: .08rem .1rem; }
-    .price .foot .btn {
-      padding: .14rem;
-      font-size: .16rem;
-      background: #FF7F02;
-      border-radius: 3px;
-      color: #FFF;
-      text-align: center; }
-
-.all {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  overflow-y: scroll; }
-  .all .main-title {
-    width: 100%;
-    background: #fff;
-    display: flex;
-    justify-content: space-around; }
-    .all .main-title .main-title-name {
-      font-size: 15px;
-      color: #888;
-      width: 68px;
-      text-align: center;
-      height: 40px;
-      line-height: 40px; }
-    .all .main-title .choose {
-      color: #317ee7;
-      border-bottom: 2px solid #317ee7; }
-  .all article {
-    display: none; }
-    .all article .kd-content > section .dl-list dt {
-      padding: .048rem;
-      color: #888888;
-      font-size: 14px;
-      background-color: #f0f0f0; }
-    .all article .kd-content > section .dl-list dd {
-      background-color: #fff; }
-      .all article .kd-content > section .dl-list dd a {
-        display: block;
-        padding: .16rem;
-        color: #5a5a5a;
-        border-bottom: 1px solid #f0f0f0; }
-        .all article .kd-content > section .dl-list dd a img {
-          margin-right: .16rem;
-          width: .48rem;
-          height: .48rem;
-          border-radius: .24rem; }
-  .all .active {
-    display: block !important; }
-
-.orderimport {
-  height: 100%; }
-  .orderimport .history-list {
-    padding-top: .132rem; }
-    .orderimport .history-list .noresult {
-      text-align: center;
-      color: #888;
-      font-size: .14rem;
-      -webkit-transition: all .4s;
-      transition: all .4s; }
-      .orderimport .history-list .noresult .no-result-icon {
-        display: inline-block;
-        width: 1rem;
-        height: 1rem;
-        background: url(https://cdn.kuaidi100.com/images/m/nor.png);
-        background-size: 100% auto;
-        margin-bottom: .128rem; }
-    .orderimport .history-list .pd10 {
-      padding: 10px; }
-      .orderimport .history-list .pd10 .t-center {
-        text-align: center;
-        font-size: .14rem;
-        line-height: .24rem; }
-
-.query {
-  height: 100%; }
-  .query .search {
-    position: relative;
-    padding: .08rem .128rem;
-    display: -webkit-box;
-    -webkit-box-align: center; }
-    .query .search .search-ico {
-      position: absolute;
-      left: 37%;
-      top: 50%;
-      margin-left: -.06rem;
-      margin-top: -.06rem;
-      width: .12rem;
-      height: .12rem;
-      border: 2px solid #d5d5d5;
-      border-radius: 50%; }
-      .query .search .search-ico:before {
-        position: absolute;
-        right: -5px;
-        top: .07rem;
-        height: 2px;
-        -webkit-transform: rotate(45deg);
-        transform: rotate(45deg);
-        width: 6px;
-        background: #d5d5d5;
-        content: ''; }
-      .query .search .search-ico:after {
-        position: absolute;
-        right: -0.952rem;
-        top: -.064rem;
-        font-size: .14rem;
-        color: #d5d5d5;
-        content: '在结果中搜索';
-        white-space: nowrap; }
-    .query .search input {
-      display: block;
-      -webkit-box-flex: 1;
-      width: 0;
-      outline: none;
-      border: none;
-      background: #fff;
-      padding: .056rem .14rem;
-      border-radius: 4px;
-      font-size: .14rem; }
-  .query .tab {
-    display: -webkit-box;
-    font-size: 14px;
-    background: #fff;
-    box-shadow: 0 0 3px #ddd; }
-    .query .tab a.active {
-      border-bottom: 2px solid #3278e6;
-      color: #3278e6; }
-    .query .tab a {
-      display: block;
-      width: 50%;
-      -webkit-box-flex: 1;
-      text-align: center;
-      line-height: .364rem;
-      color: #333;
-      margin: 0 8px;
-      box-sizing: border-box; }
-  .query .empty {
-    margin-top: .07rem;
-    background: #fff;
-    text-align: center;
-    color: #888;
-    line-height: .42rem;
-    font-size: 14px; }
-    .query .empty img {
-      width: 100px; }
-  .query .explist {
-    background: #fff;
-    margin-top: 1px; }
-    .query .explist li {
-      position: relative;
-      display: -webkit-box;
-      -webkit-box-align: center;
-      padding: .16rem .14rem; }
-      .query .explist li .logo {
-        width: .4rem;
-        height: .4rem;
-        margin-right: .12rem;
-        background: #f0f0f0;
-        border-radius: 50%;
-        background-size: 100% 100%;
-        border: 1px solid #f6f6f6; }
-      .query .explist li .info {
-        -webkit-box-flex: 1;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis; }
-        .query .explist li .info small {
-          color: #888;
-          font-size: 13px; }
-      .query .explist li .ctrl {
-        position: relative;
-        border: 5px solid transparent;
-        width: 16px;
-        height: 16px; }
-      .query .explist li .ctrl,
-      .query .explist li .ctrl:before,
-      .query .explist li .ctrl:after {
-        background: #d5d5d5;
-        border-radius: 50%;
-        white-space: nowrap;
-        background-clip: content-box; }
-      .query .explist li .ctrl:before,
-      .query .explist li .ctrl:after {
-        width: 6px;
-        height: 6px;
-        position: absolute;
-        content: ''; }
-      .query .explist li .ctrl:before {
-        top: -8px; }
-      .query .explist li .ctrl:after {
-        bottom: -8px; }
-      .query .explist li time {
-        position: absolute;
-        top: .056rem;
-        right: .112rem;
-        font-size: .12rem;
-        color: #888; }
-    .query .explist li:after {
-      position: absolute;
-      left: .66rem;
-      right: 0;
-      bottom: 0;
-      height: 1px;
-      background: #f2f2f2;
-      content: ''; }
-  .query .in-loading {
-    background: #fff;
-    text-align: center;
-    padding: .16rem;
-    color: #888;
-    font-size: .12rem; }
-
-.m-mask {
-  display: none;
-  position: fixed !important;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.4);
-  z-index: 99; }
-  .m-mask .actionsheet {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%; }
-    .m-mask .actionsheet .title,
-    .m-mask .actionsheet li,
-    .m-mask .actionsheet .cancel {
-      background: #fff;
-      text-align: center;
-      color: #888;
-      line-height: 2.5em;
-      border-bottom: 1px solid #f0f0f0; }
-    .m-mask .actionsheet .cancel {
-      border-top: 10px solid #f0f0f0; }
-    .m-mask .actionsheet li.danger {
-      color: red; }
-  .m-mask .actionsheet.open {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0); }
-
-.me {
-  height: 100%; }
-  .me .m-list > li {
-    display: -webkit-box;
-    -webkit-box-align: center;
-    position: relative;
-    padding: 5px .16rem;
-    border-bottom: 1px solid #efeff4;
-    font-size: .16rem;
-    line-height: .35rem;
-    background: #FFF; }
-    .me .m-list > li label,
-    .me .m-list > li span {
-      color: #888; }
-  .me .m-list .m-list-info {
-    position: relative;
-    -webkit-box-flex: 1;
-    padding: 0 .14rem;
-    color: #333; }
-  .me .m-list .m-list-thumb {
-    display: block;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-size: 100%;
-    border: 1px solid #e3e3e3;
-    vertical-align: middle; }
-  .me .m-list.right .m-list-info {
-    text-align: right; }
-  .me .m-list [type=file] {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    opacity: 0; }
-  .me .m-list-link li:after {
-    display: block;
-    border-top: 2px solid #c2c2c2;
-    border-right: 2px solid #c2c2c2;
-    width: 7px;
-    height: 7px;
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-    content: '';
-    border-radius: 2px;
-    margin-left: 5px; }
-  .me input[readonly] {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    height: .35rem;
+.head {
+  text-align: center; }
+  .head a {
     outline: none;
-    width: 100%;
-    padding-left: .14rem;
-    border: none;
-    /* opacity: 0; */
-    background: transparent; }
-  .me .after {
-    background: #efeff4;
-    padding: 3px 10px;
-    font-size: .14rem;
-    color: #888; }
-  .me .m-btn-full-white {
+    text-decoration: none;
+    cursor: pointer;
+    color: #3278e6; }
+    .head a img {
+      max-width: 50%; }
+  .head h1 {
+    margin: 15px 0;
     text-align: center;
-    line-height: .448rem;
-    background: #FFF;
-    color: #e02f12; }
+    font-weight: normal;
+    color: #555551; }
+  @media screen and (max-width: 414px) {
+    .head h1 {
+      font-size: 19px; } }
 
-.result .flex {
-  display: -webkit-flex;
-  display: flex; }
-
-.result .head {
-  padding: .12rem;
-  background-color: #3481ed; }
-  .result .head .input {
-    position: relative;
-    align-items: center;
-    padding: 0 .112rem;
-    height: .38rem;
-    border-radius: 3px;
-    font-size: 14px;
-    background-color: #fff; }
-    .result .head .input input {
-      flex: 1;
-      -webkit-appearance: none;
-      outline: none;
-      border: none; }
-    .result .head .input .clear {
-      width: 24px;
-      height: 18px;
-      margin: 0 5px;
-      background: url(https://cdn.kuaidi100.com/images/m/icons/ico_close.png) no-repeat;
-      background-size: auto 100%;
-      border-right: 1px solid #dedede; }
-    .result .head .input .scan {
-      position: relative;
-      width: .192rem;
-      height: .192rem;
-      background-image: url(https://cdn.kuaidi100.com/images/m/ico_scan.png);
-      background-size: 100% auto;
-      background-repeat: no-repeat; }
-    .result .head .input .search {
-      position: relative;
-      width: .16rem;
-      height: .16rem;
-      margin-left: 3px;
-      background-image: url(https://cdn.kuaidi100.com/images/m/icons/ico_search.png);
-      background-size: 100% auto; }
-    .result .head .input .search-list {
-      position: absolute;
-      top: 42px;
-      left: 0;
-      width: 100%;
-      background: #fff;
-      outline: 1px solid #dedede;
-      z-index: 5; }
-      .result .head .input .search-list li {
-        color: #317ee7;
-        line-height: .336rem;
-        font-size: .14rem;
-        padding: 0 .07rem;
-        border-bottom: 1px solid #dedede; }
-        .result .head .input .search-list li small {
-          float: right;
-          color: #888;
-          max-width: .84rem;
-          text-overflow: ellipsis;
-          overflow: hidden;
-          white-space: nowrap; }
-
-.result .cominfo {
-  align-items: center;
-  padding: 10px;
-  border-bottom: 1px solid #efeff4;
-  font-size: .16rem;
-  background: #fff; }
-  .result .cominfo .logo {
-    width: .4rem;
-    height: .4rem;
-    margin-right: 10px;
-    border-radius: 50%;
-    background-size: 100%; }
-  .result .cominfo .text {
-    width: 0;
-    flex: 1; }
-    .result .cominfo .text .tel {
-      display: inline-block;
-      width: .24rem;
-      height: .24rem;
-      margin-left: 5px;
-      vertical-align: -7px;
-      background: url(https://cdn.kuaidi100.com/images/m/icons/ico_phone.png) center center no-repeat;
-      background-size: .16rem auto; }
-    .result .cominfo .text .select-wrap {
-      position: relative;
-      display: inline-block; }
-      .result .cominfo .text .select-wrap small {
-        font-size: 13px;
-        color: #317ee7; }
-      .result .cominfo .text .select-wrap :after {
-        display: inline-block;
-        width: .048rem;
-        height: .048rem;
-        margin-left: 5px;
-        vertical-align: 2px;
-        border-top: 1px solid;
-        border-right: 1px solid;
-        -webkit-transform: rotate(45deg);
-        transform: rotate(45deg);
-        content: ''; }
-      .result .cominfo .text .select-wrap select {
-        position: absolute;
-        top: 0;
-        right: 0;
-        left: 0;
-        right: 0;
-        z-index: 2;
-        -webkit-appearance: none;
-        opacity: 0; }
-  .result .cominfo .redpack {
-    width: .38rem;
-    padding: 0;
-    position: relative;
+.login {
+  margin: 0 auto;
+  font-size: 14px;
+  padding: 0 20px 0; }
+  .login h3 {
     margin: 10px 0;
-    overflow: hidden;
+    font-size: .16rem;
+    margin: 16px 0;
     text-align: center;
-    opacity: 0; }
-    .result .cominfo .redpack a {
-      color: #317ee7;
+    font-weight: normal; }
+  .login form {
+    background: #FFF;
+    display: block;
+    padding: 0 20px 0;
+    border: 1px solid #e7ebef; }
+    .login form .form-ctrl {
       position: relative;
-      z-index: 2; }
-    .result .cominfo .redpack img {
-      max-width: 100%; }
-  .result .cominfo .redpack:after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    background: inherit;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    margin-left: 44px;
-    width: 50px;
-    height: 22px;
-    -webkit-animation: loading 2s steps(4, end) infinite;
-    animation: loading 2s steps(4, end) infinite; }
-
-.result .result-box {
-  background: #fff; }
-  .result .result-box .m-placeholder {
-    padding: .16rem;
+      height: 53px;
+      border-bottom: 1px solid #e7ebef; }
+      .login form .form-ctrl input {
+        font-size: .14rem;
+        width: 100%;
+        background: #FFF;
+        outline: none;
+        border: none;
+        padding: 14px 0; }
+  .login .text-warn {
+    position: relative;
+    color: #fd7f24;
+    margin-top: 10px; }
+  .login #warn {
+    height: 0;
+    opacity: 0; }
+  .login .text-warn:before {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    background: url(https://cdn.kuaidi100.com/images/sso/login.png) -52px -80px no-repeat;
+    content: ''; }
+  .login .btn-submit {
+    padding: .07rem 0;
+    display: block;
+    width: 100%;
+    background: #fd7f24;
+    color: #FFF;
     text-align: center;
-    font-size: .14rem;
-    color: #888; }
-    .result .result-box .m-placeholder .img {
-      width: 80%; }
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer; }
+  .login #type {
+    margin-top: 10px; }
+
+.reg {
+  width: auto;
+  margin: 0 auto;
+  font-size: 14px;
+  padding: 0 20px 0; }
+  .reg #form {
+    background: #FFF;
+    display: block;
+    padding: 0 20px 0;
+    border: 1px solid #e7ebef; }
+    .reg #form .form-ctrl {
+      position: relative;
+      height: 53px;
+      border-bottom: 1px solid #e7ebef; }
+      .reg #form .form-ctrl input {
+        font-size: .14rem;
+        width: 100%;
+        background: #FFF;
+        outline: none;
+        border: none;
+        padding: 14px 0;
+        font-size: 14px; }
+      .reg #form .form-ctrl a {
+        font-size: 14px; }
+      .reg #form .form-ctrl a {
+        position: absolute;
+        right: 0;
+        top: 16px;
+        cursor: pointer; }
+  .reg .btn-submit {
+    padding: .07rem 0;
+    display: block;
+    width: 100%;
+    background: #fd7f24;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    border-radius: 3px;
+    cursor: pointer; }
+  .reg #warn {
+    height: 0;
+    opacity: 0; }
+  .reg .text-warn {
+    position: relative;
+    color: #fd7f24;
+    margin-top: 10px; }
+  .reg .text-warn:before {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    background: url(https://cdn.kuaidi100.com/images/sso/login.png) -52px -80px no-repeat;
+    content: ''; }
+  .reg .agreement {
+    color: #888;
+    margin-top: 15px;
+    margin-left: 5px; }
+    .reg .agreement a {
+      color: #3278e6; }
+    .reg .agreement i {
+      display: inline-block;
+      width: .14rem;
+      height: .14rem;
+      vertical-align: -2px;
+      border: 1px solid #aaa;
+      margin-right: 5px;
+      cursor: pointer;
+      border-radius: 2px; }
+    .reg .agreement .active {
+      background: url(https://cdn.kuaidi100.com/images/sso/login.png?version=20171114) 0 -105px #3681e4 no-repeat;
+      border-color: #3681e4; }
+  .reg .type {
+    padding: 10px;
+    position: relative; }
+    .reg .type a {
+      color: #3278e6;
+      position: absolute;
+      padding: 0;
+      right: 0;
+      top: 0; }
 
 #root {
-  height: 100%; }
+  height: 100%;
+  background: #f7fafc; }

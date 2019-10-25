@@ -1,0 +1,42 @@
+<div class="me">
+    <ul class="m-list m-list-link right">
+        <li><label for="">头像</label>
+            <div class="m-list-info"></div> <span class="m-list-thumb"
+                style="background-image: url(&quot;https://p.kuaidi100.com/mobile/mobileapi.do?method=download&amp;id=avatar_245108000.jpg&quot;);"></span>
+            <input type="file" accept="image/gif,image/jpeg,image/jpg,image/bmp,image/png">
+        </li>
+        <li><label for="">账号</label>
+            <div class="m-list-info">{{username}}</div>
+        </li>
+        <li><label for="">邮箱</label>
+            <div class="m-list-info"></div> <span>未设置</span>
+        </li>
+        <li><label for="">昵称</label>
+            <div class="m-list-info"></div> <span>未设置</span>
+        </li>
+        <li><label for="">性别</label>
+            <div class="m-list-info"></div> <span>未设置</span>
+        </li>
+        <li><label for="">生日</label>
+            <div class="m-list-info"><span></span> <input type="text" readonly="readonly" id="dateSelector"
+                    disabled="disabled" onfocus="this.blur()"></div> <span>未设置</span>
+        </li>
+    </ul>
+    <div class="after">按国家邮政局规定，全面实行寄递实名制</div>
+    <ul class="m-list m-list-link right">
+        <li><label>实名认证</label>
+            <div class="m-list-info"></div> <span>未实名认证</span>
+        </li>
+        <li><label for="">QQ</label>
+            <div class="m-list-info"></div> <a href="https://sso.kuaidi100.com/sso/login.do?&amp;method=qq">马上绑定</a>
+        </li>
+    </ul>
+    <div class="after"></div>
+    <ul class="m-list m-list-link">
+        <li><label for="">安全中心</label>
+            <div class="m-list-info"></div>
+        </li>
+    </ul>
+    <div class="after"></div>
+    <div class="m-btn-full-white m-t-danger logout">退出登录</div>
+</div>

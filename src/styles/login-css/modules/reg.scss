@@ -1,0 +1,117 @@
+.reg {
+    width: auto;
+    margin: 0 auto;
+    font-size: 14px;
+    padding: 0 20px 0;
+
+    #form {
+        background: #FFF;
+        display: block;
+        padding: 0 20px 0;
+        border: 1px solid #e7ebef;
+
+        .form-ctrl {
+            position: relative;
+            height: 53px;
+            border-bottom: 1px solid #e7ebef;
+
+            input {
+                font-size: .14rem;
+                width: 100%;
+                background: #FFF;
+                outline: none;
+                border: none;
+                padding: 14px 0;
+                font-size: 14px;
+            }
+
+            a {
+                font-size: 14px;
+            }
+
+
+            a {
+                position: absolute;
+                right: 0;
+                top: 16px;
+                cursor: pointer;
+            }
+        }
+    }
+
+
+    .btn-submit {
+        padding: .07rem 0;
+        display: block;
+        width: 100%;
+        background: #fd7f24;
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        outline: none;
+        border: none;
+        margin-top: 10px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    #warn {
+        height: 0;
+        opacity: 0;
+    }
+
+    .text-warn {
+        position: relative;
+        color: #fd7f24;
+        margin-top: 10px;
+    }
+
+    .text-warn:before {
+        display: inline-block;
+        vertical-align: middle;
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+        background: url(https://cdn.kuaidi100.com/images/sso/login.png) -52px -80px no-repeat;
+        content: '';
+    }
+
+    .agreement {
+        color: #888;
+        margin-top: 15px;
+        margin-left: 5px;
+
+        a {
+            color: #3278e6;
+        }
+
+        i {
+            display: inline-block;
+            width: .14rem;
+            height: .14rem;
+            vertical-align: -2px;
+            border: 1px solid #aaa;
+            margin-right: 5px;
+            cursor: pointer;
+            border-radius: 2px;
+        }
+
+        .active {
+            background: url(https://cdn.kuaidi100.com/images/sso/login.png?version=20171114) 0 -105px #3681e4 no-repeat;
+            border-color: #3681e4;
+        }
+    }
+
+    .type {
+        padding: 10px;
+        position: relative;
+
+        a {
+            color: #3278e6;
+            position: absolute;
+            padding: 0;
+            right: 0;
+            top: 0;
+        }
+    }
+}

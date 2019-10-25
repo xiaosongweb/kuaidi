@@ -1,0 +1,45 @@
+<div class="result">
+    <div class="head">
+        <div class="flex input"><input type="text" placeholder="请输入快递单号" value="{{inputVal}}">
+            <div class="clear"></div>
+            <div class="scan" style="display: none;"></div>
+            <div class="search"></div>
+            <div class="search-list" style="display: none;">
+                <ul>
+                    <li>
+                        {{orderId}}<small>{{cscName}}</small></li>
+                </ul>
+                <div class="last"><span>&nbsp;</span><span class="close">关闭</span></div>
+            </div>
+        </div>
+    </div>
+    <div class="flex cominfo">
+        <div class="logo" style="background-image: url({{imgUrl}})">
+        </div>
+        <div class="text">
+            <div class="name">{{cscName}}
+                <a href="tel:95546" class="tel"></a>
+            </div>
+            <div class="select-wrap"><small>切换公司</small> <select>
+                    <option value=`{{cscNum}}`>{{cscName}}</option>
+                    <option value="auto">识别快递公司</option>
+                    <option value="other">其他快递公司</option>
+                </select></div>
+        </div>
+        <div role-slot="m_result_redpacket" class="redpack" id="m_result_redpacket" style="display: block; opacity: 1;">
+            <a target="_blank" href="https://enter.himmi.cn/activity/index?id=896&amp;spm=49.2.93.47#"
+                style="cursor:pointer"><img src="https://cdn.kuaidi100.com/images/open/appads/20190806141945.png"></a>
+        </div>
+    </div>
+
+    <section class="result-box">
+
+        <div class="result-fail m-placeholder" style=""><img
+                src="https://cdn.kuaidi100.com/images/m/placeholders/empty.png" alt="" class="img">
+            <p>快递100查无记录</p>
+            <p>请核对你的公司和单号是否正确</p>
+            <p style="">如需帮助，请联系韵达快递客服电话<a href="tel:95546">95546</a></p>
+        </div>
+    </section>
+
+</div>

@@ -1,0 +1,32 @@
+.head {
+
+    text-align: center;
+
+
+    a {
+        outline: none;
+        text-decoration: none;
+        cursor: pointer;
+        color: #3278e6;
+
+        img {
+            max-width: 50%;
+        }
+    }
+
+    h1 {
+        margin: 15px 0;
+        text-align: center;
+        font-weight: normal;
+        color: #555551;
+    }
+
+    @media screen and (max-width: 414px) {
+        h1 {
+            font-size: 19px;
+
+        }
+    }
+
+
+}

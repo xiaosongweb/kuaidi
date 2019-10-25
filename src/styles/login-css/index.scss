@@ -1,0 +1,9 @@
+@import '../lib//yo3/usage/core/reset.scss';
+@import './modules/root.scss';
+@import './modules/header.scss';
+@import './modules/login.scss';
+@import './modules/reg.scss';
+#root {
+    height: 100%;
+    background: #f7fafc;
+}
