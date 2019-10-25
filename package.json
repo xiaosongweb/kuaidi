@@ -1,0 +1,24 @@
+{
+  "name": "project",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node-dev app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xiaocai",
+  "license": "MIT",
+  "devDependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.2.1",
+    "moment": "^2.24.0",
+    "mongodb": "^3.3.3",
+    "mongoose": "^5.7.5",
+    "nodemailer": "^6.3.1"
+  }
+}
